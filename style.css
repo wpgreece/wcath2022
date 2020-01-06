@@ -1,0 +1,2225 @@
+/*/*======================================
+    Table Of Contents
+/*======================================
+
+01. Normalize csss
+02. Base CSS
+	2.1 Typography
+	2.2 General
+	2.3 Elements Styling
+		2.3.1 Buttons
+		2.3.2 Embed YouTube
+03. Navigation Menu
+	3.1 Desktop Nav Menu
+	3.2 Mobile Nav Menu
+04. Index
+	4.1 Big Hero Image
+	4.2 Widgets Section
+	4.3 Post
+	4.4 Title
+05. Single Post
+	5.1 Entry Title
+	5.2 Captions
+	5.3 Blockquote
+	5.4 Default Block Image
+06. Commments
+	6.1 Comments Section
+	6.2 Post Navigation On Comments
+07. Sidebar
+	7.1 Widgets On Sidebar
+	7.2 Subcribe Form
+08. Prefooter Widget
+	8.1 Background Register Section
+	8.2 Title of Register Section
+09. Footer
+	9.1 Site Info
+10. Social Media Links
+	10.1 Sharedaddy - Jetback
+11. Pages
+	11.1 Speakers
+	11.2 Tickets
+	11.3 Budget
+	11.4 Organizers
+	11.5 Sponsors
+	11.6 Badges
+12. Contact Page
+	12.1 Textarea
+13. Responsive
+	13.1 Primary and Sidebar
+	13.2 Home Title
+	13.3 Widget Section
+	13.4 Table
+	13.5 Footer
+	13.6 Fluid Typography
+
+*/
+
+
+
+/*! de-style.css v1.0.5 | MIT License | https://github.com/nicolas-cusan/destyle.css */
+
+/* Reset box-model
+   ========================================================================== */
+
+   * {
+	box-sizing: border-box;
+  }
+
+  ::before,
+  ::after {
+	box-sizing: inherit;
+  }
+
+  /* Document
+	 ========================================================================== */
+  /**
+   * 1. Correct the line height in all browsers.
+   * 2. Prevent adjustments of font size after orientation changes in iOS.
+   * 3. Remove gray overlay on links for iOS.
+   */
+
+  html {
+	line-height: 1.15; /* 1 */
+	-webkit-text-size-adjust: 100%; /* 2 */
+	-webkit-tap-highlight-color: transparent; /* 3*/
+  }
+
+  /* Sections
+	 ========================================================================== */
+
+  /**
+   * Remove the margin in all browsers.
+   */
+
+  body {
+	margin: 0;
+  }
+
+  /**
+   * Render the `main` element consistently in IE.
+   */
+
+  main {
+	display: block;
+  }
+
+  /* Vertical rhythm
+	 ========================================================================== */
+
+  p,
+  table,
+  blockquote,
+  address,
+  pre,
+  iframe,
+  form,
+  figure,
+  dl {
+	margin: 0;
+  }
+
+  /* Headings
+	 ========================================================================== */
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+	font-size: inherit;
+	line-height: inherit;
+	font-weight: inherit;
+	margin: 0;
+  }
+
+  /* Lists (enumeration)
+	 ========================================================================== */
+
+  ul,
+  ol {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+  }
+
+  /* Lists (definition)
+	 ========================================================================== */
+
+  dt {
+	font-weight: bold;
+  }
+
+  dd {
+	margin-left: 0;
+  }
+
+  /* Grouping content
+	 ========================================================================== */
+
+  /**
+   * 1. Add the correct box sizing in Firefox.
+   * 2. Show the overflow in Edge and IE.
+   */
+
+  hr {
+background-image: url('https://2019.athens.wordcamp.org/files/2019/01/line.png');
+width: 80px;
+height: 8px;
+margin: 0 auto;
+left: 0;
+right: 0;
+bottom: 0;
+border: 0;
+  }
+
+  /**
+   * 1. Correct the inheritance and scaling of font size in all browsers.
+   * 2. Correct the odd `em` font sizing in all browsers.
+   */
+
+  pre {
+	font-family: monospace, monospace; /* 1 */
+	font-size: inherit; /* 2 */
+  }
+
+  address {
+	font-style: inherit;
+  }
+
+  /* Text-level semantics
+	 ========================================================================== */
+
+  /**
+   * Remove the gray background on active links in IE 10.
+   */
+
+  a {
+	background-color: transparent;
+	text-decoration: none;
+	color: inherit;
+  }
+
+  /**
+   * 1. Remove the bottom border in Chrome 57-
+   * 2. Add the correct text decoration in Chrome, Edge, IE, Opera, and Safari.
+   */
+
+  abbr[title] {
+	border-bottom: none; /* 1 */
+	text-decoration: underline; /* 2 */
+	text-decoration: underline dotted; /* 2 */
+  }
+
+  /**
+   * Add the correct font weight in Chrome, Edge, and Safari.
+   */
+
+  b,
+  strong {
+	font-weight: bolder;
+  }
+
+  /**
+   * 1. Correct the inheritance and scaling of font size in all browsers.
+   * 2. Correct the odd `em` font sizing in all browsers.
+   */
+
+  code,
+  kbd,
+  samp {
+	font-family: monospace, monospace; /* 1 */
+	font-size: inherit; /* 2 */
+  }
+
+  /**
+   * Add the correct font size in all browsers.
+   */
+
+  small {
+	font-size: 80%;
+  }
+
+  /**
+   * Prevent `sub` and `sup` elements from affecting the line height in
+   * all browsers.
+   */
+
+  sub,
+  sup {
+	font-size: 75%;
+	line-height: 0;
+	position: relative;
+	vertical-align: baseline;
+  }
+
+  sub {
+	bottom: -0.25em;
+  }
+
+  sup {
+	top: -0.5em;
+  }
+
+  /* Embedded content
+	 ========================================================================== */
+
+  /**
+   * Remove the border on images inside links in IE 10.
+   */
+
+  img {
+	border-style: none;
+	vertical-align: bottom;
+  }
+
+  embed,
+  object,
+  iframe {
+	border: 0;
+	vertical-align: bottom;
+  }
+
+  /* Forms
+	 ========================================================================== */
+
+  button,
+  input,
+  optgroup,
+  select,
+  textarea {
+	vertical-align: middle;
+	color: inherit;
+	font: inherit;
+	border: 0;
+	background: transparent;
+	padding: 0;
+	margin: 0;
+	outline: 0;
+	}
+
+.post button, [type="button"], [type="submit"],
+a.btn.primary-btn,
+input[type='submit']{
+	width:220px;
+}
+
+  /**
+   * Remove all Style fro select elements. Does not quite work cross-browser
+   */
+
+  select {
+	-webkit-appearance: none;
+	appearance: none;
+	border-radius: 0;
+  }
+
+  /**
+   * Show the overflow in IE.
+   * 1. Show the overflow in Edge.
+   */
+
+  button,
+  input {
+	/* 1 */
+	overflow: visible;
+  }
+
+  /**
+   * Remove the inheritance of text transform in Edge, Firefox, and IE.
+   * 1. Remove the inheritance of text transform in Firefox.
+   */
+
+  button,
+  select {
+	/* 1 */
+	text-transform: none;
+  }
+
+  /**
+   * Correct the inability to style clickable types in iOS and Safari.
+   */
+
+  button,
+  [type='button'],
+  [type='reset'],
+  [type='submit'] {
+	cursor: pointer;
+	-webkit-appearance: none;
+	appearance: none;
+  }
+  .tix-column-quantity select, .tix-right select{
+		-webkit-appearance: menulist;
+			appearance: inherit;
+	}
+  button[disabled],
+  [type='button'][disabled],
+  [type='reset'][disabled],
+  [type='submit'][disabled] {
+	cursor: default;
+  }
+
+  /**
+   * Remove the inner border and padding in Firefox.
+   */
+
+  button::-moz-focus-inner,
+  [type='button']::-moz-focus-inner,
+  [type='reset']::-moz-focus-inner,
+  [type='submit']::-moz-focus-inner {
+	border-style: none;
+	padding: 0;
+  }
+
+  /**
+   * Restore the focus styles unset by the previous rule.
+   */
+
+  button:-moz-focusring,
+  [type='button']:-moz-focusring,
+  [type='reset']:-moz-focusring,
+  [type='submit']:-moz-focusring {
+	outline: 1px dotted ButtonText;
+  }
+
+  /**
+   * Reset to invisible
+   */
+
+  fieldset {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	min-width: 0;
+  }
+
+  /**
+   * 1. Correct the text wrapping in Edge and IE.
+   * 2. Correct the color inheritance from `fieldset` elements in IE.
+   * 3. Remove the padding so developers are not caught out when they zero out
+   *    `fieldset` elements in all browsers.
+   */
+
+  legend {
+	color: inherit; /* 2 */
+	display: table; /* 1 */
+	max-width: 100%; /* 1 */
+	padding: 0; /* 3 */
+	white-space: normal; /* 1 */
+  }
+
+  /**
+   * Add the correct vertical alignment in Chrome, Firefox, and Opera.
+   */
+
+  progress {
+	vertical-align: baseline;
+  }
+
+  /**
+   * Remove the default vertical scrollbar in IE 10+.
+   */
+
+  textarea {
+	overflow: auto;
+  }
+
+  /**
+   * 1. Add the correct box sizing in IE 10.
+   * 2. Remove the padding in IE 10.
+   */
+
+  [type='checkbox'],
+  [type='radio'] {
+	box-sizing: border-box; /* 1 */
+	padding: 0; /* 2 */
+  }
+
+  /**
+   * Correct the cursor style of increment and decrement buttons in Chrome.
+   */
+
+  [type='number']::-webkit-inner-spin-button,
+  [type='number']::-webkit-outer-spin-button {
+	height: auto;
+  }
+
+  /**
+   * 1. Correct the odd appearance in Chrome and Safari.
+   * 2. Correct the outline style in Safari.
+   */
+
+  [type='search'] {
+	-webkit-appearance: textfield; /* 1 */
+	outline-offset: -2px; /* 2 */
+  }
+
+  /**
+   * Remove the inner padding in Chrome and Safari on macOS.
+   */
+
+  [type='search']::-webkit-search-decoration {
+	-webkit-appearance: none;
+  }
+
+  /**
+   * 1. Correct the inability to style clickable types in iOS and Safari.
+   * 2. Change font properties to `inherit` in Safari.
+   */
+
+  ::-webkit-file-upload-button {
+	-webkit-appearance: button; /* 1 */
+	font: inherit; /* 2 */
+  }
+
+  /**
+   * Fix placeholder font properties inheritance.
+   */
+
+  ::-webkit-input-placeholder {
+	font: inherit;
+  }
+
+  :-ms-input-placeholder {
+	font: inherit;
+  }
+
+  ::-ms-input-placeholder {
+	font: inherit;
+  }
+
+  ::placeholder {
+	font: inherit;
+  }
+
+  /**
+   * Clickable labels
+   */
+
+  label[for] {
+	cursor: pointer;
+  }
+
+  /* Interactive
+	 ========================================================================== */
+
+  /*
+   * Add the correct display in Edge, IE 10+, and Firefox.
+   */
+
+  details {
+	display: block;
+  }
+
+  /*
+   * Add the correct display in all browsers.
+   */
+
+  summary {
+	display: list-item;
+  }
+
+  /* Table
+	 ========================================================================== */
+
+  table {
+	border-collapse: collapse;
+	border-spacing: 0;
+  }
+
+  caption {
+	text-align: left;
+  }
+
+  td,
+  th {
+	vertical-align: top;
+  }
+
+  th {
+	text-align: left;
+	font-weight: bold;
+  }
+
+  /* Misc
+	 ========================================================================== */
+
+  /**
+   * Add the correct display in IE 10+.
+   */
+
+  template {
+	display: none;
+  }
+
+  /**
+   * Add the correct display in IE 10.
+   */
+
+  [hidden] {
+	display: none;
+  }
+
+  * {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+  }
+
+*:before,
+*:after {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+/* /*======================================
+	02. Base CSS
+------------------------------------------- */
+	/* 2.1 Typography
+=========================================== */
+body {
+	background:rgba(255, 255, 255, 1);
+	color:rgba(0,0,0,.8);
+	font-family: 'Roboto', sans-serif;
+	font-size:1.125em;
+	line-height:1.5;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	line-height: normal;
+	-ms-word-wrap: break-word;
+	word-wrap: break-word;
+	font-weight: 700;
+	font-family: 'Ubuntu', sans-serif;
+}
+
+h1 {
+	font-size: 2.0000em; /* 36px */
+	line-height: 1.5000em; /* 54px */
+	margin-top: 0.7500em;
+	 margin-bottom: 0.0000em;
+}
+
+h2 {
+	font-size: 1.5556em; /* 28px */
+	line-height: 1.9286em; /* 54px */
+	margin-top: 0.9643em;
+	margin-bottom: 0.0000em;
+}
+
+h3 {
+	font-size: 1.1667em; /* 21px */
+	line-height: 1.2857em; /* 27px */
+	margin-top: 1.2857em;
+	margin-bottom: 0.0000em;
+
+}
+
+h4 {
+	font-size: 1.0000em; /* 18px */
+	line-height: 1.5000em; /* 27px */
+	 margin-top: 1.5000em;
+	 margin-bottom: 0.0000em;
+}
+
+h5 {
+	font-size: 0.8889em; /* 16px */
+	line-height: 1.6875em; /* 27px */
+	margin-top: 1.6875em;
+	margin-bottom: 0.0000em;
+}
+
+h6 {
+	font-size: 0.7778em; /* 14px */
+	line-height: 1.9286em; /* 27px */
+	margin-top: 1.9286em;
+	margin-bottom: 0.0000em;
+}
+
+p {
+	margin: 0 0 1.5000em 0;
+}
+
+img {
+	display: inline-block;
+	vertical-align: middle;
+	max-width: 100%;
+	height: auto;
+}
+
+/* 2.2 General
+======================================*/
+#custom_html-1 h1.widget-title,
+#custom_html-2 h1.widget-title,
+#custom_html-3 h1.widget-title,
+#custom_html-4 h1.widget-title,
+span.sep:first-child{
+	display: none;
+}
+
+a {
+	-moz-transition: all 0.3s ease;
+	-o-transition: all 0.3s ease;
+	-webkit-transition: all 0.3s ease;
+	transition: all 0.3s ease;
+	outline: none;
+	color:rgba(68, 142, 246, 1);
+	text-decoration: none;
+}
+
+a:hover, a:focus {
+	color:rgba(14, 99, 216, 1);
+	outline: none;
+	text-decoration: underline;
+}
+
+a:active {
+	outline: none;
+}
+
+#main {
+	max-width:73.125rem;
+	margin:0 auto 7.75rem auto;
+}
+
+#secondary {
+	-moz-box-sizing:border-box;
+	-webkit-box-sizing:border-box;
+	box-sizing:border-box;
+}
+
+#main:after {
+	clear:both;
+	content:'';
+	display:table
+}
+
+#primary {
+	-moz-box-sizing:border-box;
+	-webkit-box-sizing:border-box;
+	box-sizing:border-box;
+}
+
+body.page-id-148 #secondary {
+	display: none;
+}
+
+body.page-id-148 #primary {
+	width: 100%;
+}
+
+
+  /* 2.3 Elements Styling
+/*======================================*/
+  /* 2.3.1 Buttons
+========================================*/
+button, [type="button"], [type="submit"],
+a.btn.primary-btn,
+input[type='submit'] {
+	background-color:rgba(68, 142, 246, 1);
+	color:rgba(255, 255, 255, 1);
+	cursor:pointer;
+	font-size:1.125rem;
+	font-weight:700;
+	padding:1.1875rem;
+	text-transform:uppercase;
+	 -moz-transition: all 0.3s ease;
+  	-o-transition: all 0.3s ease;
+  	-webkit-transition: all 0.3s ease;
+  	transition: all 0.3s ease;
+	width:100%;
+	margin:0.875rem 0 0.9375rem;
+	line-height:1.4;
+	text-shadow:none;
+	border:0 none;
+	box-shadow: 0 2px 10px rgba(175, 187, 198, 1);
+	-webkit-box-shadow: 0 2px 10px rgba(175, 187, 198, 1);
+	-moz-box-shadow: 0 2px 10px rgba(175, 187, 198, 1);
+	-webkit-border-radius: 3px!important;
+	-moz-border-radius: 3px!important;
+	border-radius: 3px!important;
+}
+
+a.btn.primary-btn:hover,
+input[type='submit']:hover {
+	background-color:rgba(14, 99, 216, 1);
+	color:rgba(255,255,255,1);
+	text-decoration:none;
+}
+
+input[type='text'],input[type='email'],
+input[type='url'],
+.tix-right select,
+.tix-column-quantity select {
+	background:rgba(255,255,255,0.9);
+	border:1px solid rgba(215, 215, 215, 1);
+	-moz-box-sizing:border-box;
+	-webkit-box-sizing:border-box;
+	box-sizing:border-box;
+	padding:.9rem;
+	 -moz-transition: all 0.3s ease;
+  	-o-transition: all 0.3s ease;
+  	-webkit-transition: all 0.3s ease;
+  	transition: all 0.3s ease;
+	width:100%;
+	text-align: left;
+	font-size:1em;
+	font-weight: 300;
+	-webkit-border-radius:3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+}
+
+input:focus,
+textarea:focus{
+	box-shadow: 0 0 6px rgba(0, 200, 222, 0.20);
+	background-color: rgba(250, 250, 250, 0.3);
+}
+
+  /* 2.3.2 Embed YouTube
+======================================*/
+.embed-youtube  {
+	position:relative;
+	padding-bottom:56.25%;
+	padding-top:30px;
+	height:0;
+	overflow:hidden;
+}
+
+.embed-youtube iframe,
+.embed-youtube object,
+.embed-youtube embed{
+	position:absolute;
+	top:0;
+	left:0;
+	width:100%;
+	height:100%;
+}
+
+/*======================================
+	03. Navigation Menu
+----------------------------------------*/
+	/* 3.1 Desktop Nav Menu
+========================================*/
+
+#menu-item-4388 a {
+	color: rgba(255,255,255,1);
+	background-color:rgba(68,142,246,1);
+}
+
+.assistive-text{
+	display: none;
+}
+.main-navigation {
+	background:rgba(255, 255, 255, 1);
+	top:0;
+	position:fixed;
+	text-align:center;
+	width:100%;
+	z-index:900;
+	-webkit-box-shadow: 0px 3px 6px 0px rgba(0, 0, 0, 0.2);
+	-moz-box-shadow:    0px 3px 6px 0px rgba(0, 0, 0, 0.2);
+	box-shadow:         0px 3px 6px 0px rgba(0, 0, 0, 0.2);
+}
+
+.menu-toggle {
+	padding: 1rem;
+	margin-top: .125rem;
+	width: 100%;
+	font-size: 0;
+	line-height: 24px;
+	font-weight: 500;
+	text-align: center;
+	letter-spacing: .05em;
+	border-radius: 0;
+	color: rgba(19, 51, 166, 1);
+	background-color: rgba(255, 255, 255, 1);
+	cursor: pointer;
+	-moz-transition: all 0.3s ease;
+	-o-transition: all 0.3s ease;
+	-webkit-transition: all 0.3s ease;
+	transition: all 0.3s ease;
+	z-index: 900;
+	border-bottom:2px solid rgba(19,51,166,1);
+	position: absolute;
+	top:0;
+}
+
+.menu-toggle.focus,
+.menu-toggle:active,
+.menu-toggle:focus,
+.menu-toggle:hover {
+	color: rgba(255, 255, 255, 1);
+	background-color: rgba(19, 51, 166, 1);
+}
+
+.menu-toggle:before {
+	font-size: 16px;
+	line-height: 24px;
+	content: "Menu"
+}
+
+.menu-toggle:after,
+.menu-toggle:before {
+	display: inline-block;
+	vertical-align: middle
+}
+
+.menu-toggle:after {
+	position: relative;
+	top: .25rem;
+	border: .375rem solid transparent;
+	margin-left: .5rem;
+	border-top-color: rgba(19, 51, 166, 1);
+	content: ""
+}
+
+.menu-toggle:hover:after{
+	border-top-color:rgba(255, 255, 255, 1);
+	}
+
+
+.menu-toggle[aria-expanded=true] {
+	color: rgba(19, 51, 166, 1);
+}
+
+.menu-toggle[aria-expanded=true]:after {
+	top: -.25rem;
+	border-top-color: transparent;
+	border-bottom-color: rgba(19, 51, 166, 1);
+}
+
+@media (min-width:48em) {
+	.menu-toggle {
+			display: none
+	}
+}
+
+
+@media (max-width:47.9375em) {
+	.main-navigation {
+			background-color: rgba(255, 255, 255, 1);
+	}
+	.main-navigation.toggled-on .menu {
+			display: block
+	}
+}
+
+.menu {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	*zoom: 1;
+	text-align: center;
+	max-width: 1200px;
+	margin: 0 auto;
+	background-color:rgba(255,255,255,1);
+	position: relative;
+	z-index: 900;
+}
+
+.menu:after,
+.menu:before {
+	content: "";
+	display: table
+}
+
+.menu:after {
+	clear: both
+}
+
+@media (min-width:48em) {
+	.menu {
+			-ms-flex-pack: justify;
+			justify-content: space-between
+	}
+	.menu,
+	.menu>li>a {
+			display: -ms-flexbox;
+			display: flex
+	}
+	.menu>li>a {
+			height: 100%;
+			-ms-flex-align: center;
+			align-items: center
+	}
+}
+
+@media (max-width:47.9375em) {
+	.menu {
+			display: none;
+			position: absolute;
+			top: 55px;
+			width:100%;
+			-webkit-box-shadow: 0px 3px 6px 0px rgba(0, 0, 0, 0.2);
+			-moz-box-shadow:    0px 3px 6px 0px rgba(0, 0, 0, 0.2);
+			box-shadow:         0px 3px 6px 0px rgba(0, 0, 0, 0.2);
+			border-bottom: 4px solid rgb(19, 51, 166);
+	}
+	.toggled-on .menu {
+			display: block
+	}
+}
+
+.menu-item {
+	position: relative;
+	margin: 0;
+	display: block;
+	font-size: 1em;
+	font-weight: 400;
+	text-align: left;
+	text-transform: uppercase
+}
+
+@media (min-width:48em) {
+	.menu-item {
+			display: inline-block;
+			line-height: 1.33333em;
+			text-align: center
+	}
+}
+
+.menu-item a {
+	display: block;
+	color: rgba(19, 51, 166, 1);
+	padding: .5rem 1rem;
+	text-decoration: none;
+}
+
+.menu-item a.focus,
+.menu-item a:active,
+.menu-item a:focus,
+.menu-item a:hover {
+	color: rgba(255, 255, 255, 1);
+	background-color: rgba(19, 51, 166, 1);
+}
+
+@media (min-width:48em) {
+	.menu-item a {
+			padding: 1rem
+	}
+}
+
+@media (min-width:62em) {
+	.menu-item a {
+			padding: 1.5rem
+	}
+}
+
+.current-menu-item>a, .sub-menu li.current-menu-item  a {
+	color: rgba(255, 255, 255, 1);
+	background-color: rgba(19, 51, 166, 1);
+}
+.sub-menu
+.menu-item-has-children .dropdown-toggle {
+	display: none
+}
+
+@media (min-width:48em) {
+	.menu-item-has-children {
+			background-color: transparent
+	}
+	.menu-item-has-children>a:after {
+			position: relative;
+			bottom: -.125rem;
+			border: .25rem solid transparent;
+			left: .5rem;
+			border-top-color: rgba(19, 51, 166, 1);
+			content: ""
+	}
+	.menu-item-has-children>a .dropdown-toggle {
+			display: inline-block;
+			display: none
+	}
+	.menu-item-has-children.focus>a,
+	.menu-item-has-children:hover>a {
+		color: rgba(255, 255, 255, 1);
+		background-color:  rgba(19, 51, 166, 1);
+	}
+	.menu-item-has-children.focus>a:after,
+	.menu-item-has-children:hover>a:after {
+		border-top-color: rgba(19, 51, 166, 1);
+	}
+	.menu-item-has-children.focus>.sub-menu,
+	.menu-item-has-children:hover>.sub-menu {
+			left: 0
+	}
+	.menu-item-has-children.focus.menu-item:last-of-type>.sub-menu,
+	.menu-item-has-children:hover.menu-item:last-of-type>.sub-menu {
+			right: 0;
+			left: auto
+	}
+	.menu-item-has-children.current-menu-item>a:after {
+		border-top-color: rgba(19, 51, 166, 1);
+	}
+}
+
+.sub-menu {
+	list-style: none;
+	margin: 0;
+	padding: 0
+}
+
+.sub-menu .menu-item {
+	text-transform: none;
+	font-weight: 400;
+}
+
+@media (max-width:47.9375em) {
+	.sub-menu a {
+			padding-left: 2.5rem
+	}
+	.sub-menu a:before {
+			position: absolute;
+			left: 1.5rem;
+			top: 50%;
+			margin-top: -.5rem;
+			width: .125rem;
+			height: 1rem;
+			transform: rotate(90deg);
+			background-color: rgba(19, 51, 166, 1);
+			content: ""
+	}
+
+	.sub-menu a:hover:before{
+		background-color: rgba(255,255,255,1);
+	}
+}
+
+@media (min-width:48em) {
+	.sub-menu {
+			position: absolute;
+			top: 100%;
+			left: -999em;
+			z-index: 310;
+			min-width: 16.25rem;
+			background-color: rgba(255, 255, 255, 1);
+			-webkit-box-shadow: 0 3px 6px 0 rgba(0,0,0,0.2);
+			-moz-box-shadow: 0 3px 6px 0 rgba(0,0,0,0.2);
+			box-shadow: 0 3px 6px 0 rgba(0,0,0,0.2);
+	}
+	.sub-menu .menu-item {
+			width: 100%;
+			margin: 0;
+			border-top: 1px solid rgba(19, 51, 166, 1);
+			text-align: left
+	}
+	.sub-menu li.focus>a,
+	.sub-menu li:hover>a {
+		color:rgba(255, 255, 255, 1);
+		background-color:rgba(19, 51, 166, 1);
+	}
+	.sub-menu a {
+			padding: .625rem 1rem;
+			color: rgba(19, 51, 166, 1);
+			padding-left: 1.5rem;
+			padding-right: 1.5rem
+	}
+}
+
+@media (min-width:62em) {
+	.sub-menu a {
+			padding-left: 1.5rem;
+			padding-right: 1.5rem
+	}
+}
+
+/*/*======================================
+	04. Index
+------------------------------------------*/
+/* 4.1 Big Hero Image
+==========================================*/
+
+.home .site-header {
+	height:80vh;
+}
+
+.site-header {
+	background:url('https://2019.athens.wordcamp.org/files/2019/02/wcathens2019-min.png') 50% 100% no-repeat;
+	background-size:cover;
+	-webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+	position:relative;
+	text-align:center;
+	background-attachment: fixed;
+}
+.site-title {
+	background:url('https://2019.athens.wordcamp.org/files/2019/01/wcath2019logo.png') no-repeat;
+	width:271px;
+	height:500px;
+	margin:0 auto;
+	text-indent:100%;
+	white-space:nowrap;
+	overflow:hidden;
+	-webkit-background-size:85% auto;
+	-moz-background-size:85% auto;
+	background-size: 85% auto;
+	background-position: 45px center;
+}
+
+.site-description {
+	display:none;
+}
+
+.site-header::before{
+	content: "";
+	width: 100%;
+	z-index: 1;
+	display: block;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	background: rgba(68, 142, 246, 0.7);
+	z-index: 100;
+}
+
+.home .site-header hgroup {
+	top:50%;
+	transform:translateY(-50%);
+}
+
+.home .site-header hgroup,
+.page .site-header hgroup,
+.single .site-header hgroup{
+	position: relative;
+	z-index: 900;
+}
+
+.site-header hgroup {
+	padding:4% 0;
+}
+
+.site-header img {
+	max-width:80%
+}
+
+/* 4.2 Widgets Section
+======================================*/
+#after-header-widgets {
+	max-width:62rem;
+	margin: 0 auto;
+	bottom: 45px;
+	position: relative;
+	z-index:800;
+}
+
+#after-header-widgets h1 {
+	display:none
+}
+#after-header-widgets:after {
+	clear:both;
+	content:'';
+	display:table
+}
+#after-header-widgets .widget {
+	-moz-box-sizing:border-box;
+	-webkit-box-sizing:border-box;
+	box-sizing:border-box;
+	float:left;
+	margin:0 auto 1rem;
+	padding:0 0.7rem;
+	width:50%;
+	border:none!important;
+}
+
+
+#after-header-widgets .textwidget img {
+	-moz-box-shadow:0 0 8px rgba(126,99,88,0.3);
+	-webkit-box-shadow:0 0 8px rgba(126,99,88,0.3);
+	box-shadow:0 0 8px rgba(126,99,88,0.3);
+	cursor:pointer;
+	display:block;
+	margin:0 auto;
+	 -moz-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+  -webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+}
+
+#after-header-widgets .textwidget img:hover {
+	-moz-transform:scale(1.05);
+	-ms-transform:scale(1.05);
+	-webkit-transform:scale(1.05);
+	transform:scale(1.05);
+}
+
+/* 4.3 Post
+======================================*/
+.page .site-header,
+.single .site-header {
+    background: url('https://2019.athens.wordcamp.org/files/2019/02/wcathens2019-min.png') 50% 80% no-repeat;
+  -webkit-background-size: cover!important;
+  -moz-background-size: cover!important;
+  -o-background-size: cover!important;
+  background-size: cover!important;
+     text-align: center;
+    position: relative;
+}
+
+.post{
+	position: relative;
+	margin-bottom: 3rem;
+	padding-bottom: 3rem;
+}
+
+.post::after{
+	display: block;
+	position: absolute;
+	content: "";
+	background-image: url('https://2019.athens.wordcamp.org/files/2019/01/line.png');
+	width: 80px;
+	height: 8px;
+	margin: 0 auto;
+	left:0;
+	right:0;
+	bottom:0;
+}
+
+a.more-link {
+    display: inline-block;
+    margin: 2rem 0  1rem 0;
+    color: rgba(14, 99, 216, 1);
+    font-weight: 500;
+	text-decoration: underline;
+	letter-spacing: 0.01em;
+}
+
+/* 4.4 Title
+======================================*/
+
+.entry-title a {
+	color:rgba(14, 99, 216, 1);
+	text-decoration:none;
+}
+
+.entry-title a:hover {
+	color:rgba(19, 51, 166, 1);
+	text-decoration: underline
+}
+
+.entry-title + .entry-meta {
+	font-family: 'Ubuntu', sans-serif;
+	color:rgba(0,0,0,.7);
+	font-size:0.889em;
+	line-height: 1.5625em;
+	text-transform: uppercase;
+	font-weight: 500;
+}
+
+.entry-title + .entry-meta a {
+	color:rgba(0,0,0,1);
+}
+.entry-title + .entry-meta a:hover {
+	color:rgba(0,0,0,1);
+	text-decoration:underline;
+
+}
+
+/*/*======================================
+	05. Single Post
+-----------------------------------------*/
+	.entry-content ul {
+		list-style-type: square;
+		padding-left:25px;
+
+	}
+/* 5.1 Entry Title
+=========================================*/
+.byline{
+	display: none;
+}
+.entry-title {
+	line-height:1.125;
+	margin-bottom:.66667rem;
+}
+
+.entry-header{
+	margin-bottom:1.875rem;
+}
+
+/* 5.2 Captions
+======================================*/
+.wp-caption .wp-caption-text{
+	font-size: 0.75rem!important;
+}
+
+/* 5.3 Blockquote
+======================================*/
+.wp-block-quote.is-large p, .wp-block-quote.is-style-large p{
+	font-size: 1em;
+	line-height: 1.6;
+	text-align: left;
+	font-style: normal;
+}
+
+.entry-content blockquote,
+.comment-content blockquote {
+	border-left:3px solid rgba(204, 202, 196, 1);
+	font-family: 'Ubuntu', sans-serif;
+	padding:1rem;
+}
+
+.entry-content blockquote p:last-child,.comment-content blockquote p:last-child {
+	margin-bottom:0
+}
+
+.entry-content blockquote {
+	margin:2.25rem 1rem
+}
+.comment-content blockquote {
+	margin:1.5rem .75rem
+}
+
+/* 5.4 Default Block Image
+======================================*/
+.wp-block-image{
+	margin-bottom:2rem!important;
+}
+
+.wp-block-image img{
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+
+}
+
+/*=====================================
+	06. Comments
+---------------------------------------*/
+/* 6.1 Comments Section
+======================================*/
+
+.comments-area {
+	border-top:2px solid rgba(19, 51, 166, 1);
+	margin-bottom:1.6875rem;
+	padding:1rem
+}
+
+.comment-subscription-form .subscribe-label{
+	font-size: 0.875em;
+		line-height: 24px;
+	}
+
+.comments-area textarea{
+	border: 1px solid rgba(215,215,215,1);
+	display: block;
+	margin-top:2rem;
+	width:100%;
+}
+
+.comments-area .comments-title {
+	font-size:2em;
+	line-height:1.125;
+	margin-bottom:2.25rem
+}
+
+.comments-area .comment-author {
+	line-height:1.5
+}
+
+.comments-area .comment-author .avatar {
+	border:3px solid rgba(14, 99, 216, 1);
+	border-radius:100%;
+	float:right
+}
+
+.comments-area .comment-meta {
+	font-size:.75em;
+	line-height:1.5;
+	margin:0 0 1.125rem
+}
+
+.commentlist li {
+	border-bottom:1px solid rgba(19, 51, 166, 1);
+	margin:0 0 1.6875rem;
+	padding:0 0 1.6875rem
+}
+
+.commentlist li li {
+	border-bottom:0 none;
+	border-top:1px solid rgba(19, 51, 166, 1);
+	margin:1.6875rem 0 0 1.5rem;
+	padding:1.6875rem 0 0
+}
+
+.comment-reply-link {
+	background-color:rgba(68, 142, 246, 1);
+	border:0 none;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+	color:rgba(255, 255, 255, 1);
+	cursor:pointer;
+	display:inline-block;
+	font-size:.75em;
+	font-weight:700;
+	padding:.44444rem .75rem;
+	text-transform:uppercase;
+	-moz-transition: all 0.3s ease;
+	-o-transition: all 0.3s ease;
+	-webkit-transition: all 0.3s ease;
+	transition: all 0.3s ease;
+}
+
+.comment-reply-link:hover {
+	background:rgba(14, 99, 216, 1);
+	color:rgba(255, 255, 255, 1);
+}
+
+.comment-reply-title {
+	font-size:1.6875em;
+	margin:0 0 1rem
+}
+
+/* 6.2 Post Navigation On Comments
+======================================*/
+
+.post-navigation {
+	line-height:1.5;
+	margin-bottom:1.6875rem;
+	padding:0 2.53125rem
+}
+
+.post-navigation:after {
+	clear:both;
+	content:'';
+	display:table
+}
+.post-navigation .nav-previous a,.post-navigation .nav-next a {
+	color:rgba(14, 99, 216, 1)
+}
+.post-navigation .nav-previous a:hover,.post-navigation .nav-next a:hover {
+	color:rgba(19, 51, 166, 1);
+}
+
+.post-navigation .nav-previous {
+	float:left;
+	text-align:left;
+}
+
+.post-navigation .nav-next {
+	float:right;
+	text-align:right;
+}
+
+/*/*======================================
+	07. Sidebar
+-----------------------------------------*/
+/* 7.1 Widgets On Sidebar
+=========================================*/
+#primary-sidebar {
+	margin-top:2.5rem;
+}
+
+.widget{
+	padding-bottom:1.875rem;
+}
+
+.widget .widget-title {
+	font-family: 'Ubuntu', sans-serif;
+	font-size:1.125em;
+	font-weight:700;
+	margin:0 0 0.625rem;
+	padding:0 0 0.625rem;
+	text-transform:uppercase;
+	color:rgba(0,0,0,.8);
+}
+
+/* 7.2 Subscribe Form
+======================================*/
+#subscribe-email input{
+	width:100%!important;
+}
+p#subscribe-email{
+	margin:0;
+}
+
+/*/*======================================
+	08. Prefooter Widget
+----------------------------------------*/
+/* 8.1 Background Register Section
+=========================================*/
+
+#footer-widget-1 {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+	padding: 1rem;
+}
+
+#footer-widgets {
+	display:block;
+	margin: 0 auto;
+	max-width: 100%;
+	background-image: url("https://2019.athens.wordcamp.org/files/2019/01/wcath_2019_register_section@2x.png");
+	height:440px;
+	background-repeat: no-repeat;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+#footer-widgets:after {
+	clear:both;
+	content:'';
+	display:table
+}
+
+/* 8.2 Title of Register Section
+======================================*/
+#text-4{
+	max-width: 73.125rem;
+	margin: 11.8125rem auto;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+}
+
+#text-4 h1.widget-title {
+    font-size:2em;
+	font-weight: 700;
+	flex: 1 0 50%;
+}
+
+/*======================================
+	09. Footer
+----------------------------------------*/
+/* 9.1 Site Info
+========================================*/
+.site-info {
+	background-color:rgba(19, 51, 166, 1);
+	padding:4rem;
+	text-align:center
+}
+.site-info .site-info-generator {
+	background:url('https://2017.athens.wordcamp.org/files/2017/05/logoWordCampAthens2017-top.png') 50% 0 no-repeat;
+	color:rgba(255, 255, 255, 1);;
+	display:block;
+	padding-top:9rem;
+	background-size:160px;
+	width:190px;
+	margin:0 auto;
+}
+
+.site-info .site-info-network {
+		-moz-box-sizing: border-box;
+		-webkit-box-sizing: border-box;
+		box-sizing: border-box;
+		color: rgba(19,51,166,1);
+		cursor: pointer;
+		font-size: .75em;
+		padding:.5rem;
+		position: relative;
+		text-decoration: none;
+		bottom:0px;
+		top:25px;
+		z-index: 900;
+		-webkit-border-radius: 3px;
+		-moz-border-radius: 3px;
+		border-radius: 3px;
+		margin:0 auto;
+		background-color:rgba(255,255,255,1);
+		display: inline-block;
+}
+
+/*======================================
+	10. Social Media Links
+---------------------------------------*/
+/* 10.1 Sharedaddy - Jetback
+=======================================*/
+
+body div.sharedaddy h3.sd-title {
+	font-size:1.125em;
+	margin:1rem 0 .75rem;
+	display: block!important;
+}
+body div.sharedaddy h3.sd-title:before {
+	border-top:0 none;
+	margin-bottom:0
+}
+
+.sd-social .sd-button .share-count{
+	 padding:0 0.44rem!important;
+	-webkit-border-radius: 20px!important;
+	-moz-border-radius: 20px!important;
+	border-radius: 20px!important;
+}
+
+#sharing_email .sharing_send, .sd-content ul li .option a.share-ustom, .sd-content ul li a.sd-button, .sd-content ul li.advanced a.share-more, .sd-content ul li.preview-item div.option.option-smart-off a, .sd-social-icon .sd-content ul li a.sd-button, .sd-social-icon-text .sd-content ul li a.sd-button, .sd-social-official .sd-content > ul > li .digg_button > a, .sd-social-official .sd-content > ul > li > a.sd-button, .sd-social-text .sd-content ul li a.sd-button{
+	background-color: transparent!important;
+}
+
+div.sharedaddy div.sd-block {
+	border-top: 1px solid rgba(0,0,0,0.13);
+	border-top-width: 1px;
+	border-top-style: solid;
+	border-top-color: rgba(0,0,0,0.13);
+	padding: 0;
+}
+.single-format-quote  div.sharedaddy div.sd-block {
+	display: none;
+}
+
+div.sharedaddy .sd-content {
+	margin-top: 1rem;
+	margin-left: -0.2rem!important;
+}
+
+div.sharedaddy .sd-content ul li {
+	margin:0!important;
+}
+
+div.sharedaddy a.sd-button {
+	border: none !important;
+	box-shadow: none;
+}
+
+.sd-social-icon-text a.sd-button > span, a.sd-button > span {
+	opacity: 1;
+	padding: 4px 10px!important;
+	padding: .4rem 1rem!important;
+	color: rgba(255,255,255,1)!important;
+	text-transform: uppercase;
+}
+
+li.share-facebook a.sd-button > span,
+li.share-google-plus-1 a.sd-button > span,
+li.share-twitter a.sd-button > span,
+li.share-linkedin a.sb-button > span,
+li.share-email a.sb-button > span,
+li.share-email a.sd-button > span,
+li.share-jetpack-whatsapp a.sd-button > span {
+	border: none!important;
+	color: rgba(255,255,255,1)!important;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 300;
+	letter-spacing: 0;
+	text-transform: uppercase;
+	-moz-transition: all 0.3s ease;
+	-o-transition: all 0.3s ease;
+	-webkit-transition: all 0.3s ease;
+	transition: all 0.3s ease;
+	-webkit-border-radius: 3px!important;
+	-moz-border-radius: 3px!important;
+	border-radius: 3px!important;
+}
+
+li.share-facebook a.sd-button > span {
+	background: rgba(73, 101, 160, 1);
+}
+
+li.share-facebook a.sd-button:hover > span {
+	background: rgba(56, 83, 140, 1);
+}
+
+li.share-twitter a.sd-button > span {
+	background: rgba(85, 172, 238, 1);
+}
+
+li.share-twitter a.sd-button:hover > span {
+	background: rgba(85, 172, 238, 1);
+}
+
+li.share-google-plus-1 a.sd-button > span {
+	background: rgba(221, 75, 57, 1);
+}
+
+li.share-google-plus-1 a.sd-button:hover > span {
+	background: rgba(189, 43, 25, 1);
+}
+
+li.share-linkedin a.sd-button > span {
+	background: rgba(0, 123, 181, 1);
+}
+
+li.share-linkedin a.sd-button:hover > span {
+	background: rgba(0, 123, 181, 1);
+}
+
+li.share-email a.sd-button > span {
+	background: rgba(18, 18, 18, 1);
+}
+
+li.share-linkedin a.sd-button:hover > span {
+	background: rgba(18, 18, 18, 0.4);
+}
+
+
+li.share-jetpack-whatsapp a.sd-button > span {
+	background:rgba(37, 211, 102, 1);
+}
+
+li.share-jetpack-whatsapp a.sd-button:hover > span {
+	background: rgba(37, 211, 102, 0.7);
+}
+
+.sd-content .sd-button span.share-count {
+	color: rgba(255, 255, 255, 1)!important;
+	font-size: 100% !important;
+}
+
+#sharing_email .sharing_send, .sd-content ul li .option a.share-ustom, .sd-content ul li a.sd-button, .sd-content ul li.advanced a.share-more, .sd-content ul li.preview-item div.option.option-smart-off a, .sd-social-icon .sd-content ul li a.sd-button, .sd-social-icon-text .sd-content ul li a.sd-button, .sd-social-official .sd-content > ul > li .digg_button > a, .sd-social-official .sd-content > ul > li > a.sd-button, .sd-social-text .sd-content ul li a.sd-button{
+	-webkit-box-shadow: none!important;
+	-moz-box-shadow: none!important;
+	box-shadow: none!important;
+	padding:1px 8px 8px 5px!important;
+}
+
+/*======================================
+	11. Pages
+---------------------------------------- */
+/* 11.1 Speakers
+======================================== */
+
+body.single-wcb_session h2.session-speakers {
+	text-align: left;
+}
+
+body.single-wcb_session ul#session-speaker-names {
+	padding-left: 0;
+	padding-bottom: 15px;
+	text-align: left;
+}
+
+body.single-wcb_session ul#session-speaker-names a {
+	font-size: 20px;
+	font-weight: 600;
+}
+
+
+.single-wcb_speaker .entry-meta {
+	display:none;
+}
+
+.single-wcb_speaker .speaker-avatar {
+	display: inline;
+}
+
+.single-wcb_speaker .speaker-avatar img {
+    height: 110px;
+    width: 110px;
+	-webkit-border-radius: 20px!important;
+	-moz-border-radius: 20px!important;
+	border-radius: 20px!important;
+    display: inline;
+    float: left;
+    margin-right: 1rem;
+}
+.wcorg-speaker-description img {
+	-webkit-border-radius: 90px!important;
+	-moz-border-radius: 90px!important;
+	border-radius: 90px!important;
+    display: inline-block;
+    float: left;
+    margin-right: 1rem;
+    width: 130px!important;
+    height: 130px!important;
+}
+
+body.page-id-148 .wcpt-schedule th,
+body.page-id-148 .wcpt-schedule td {
+	border: 1px solid #c8defd;
+}
+
+body.page-id-148 .wcpt-time {
+	background: #c8defd;
+	color: #000;
+}
+
+body.page-id-148 .wcpt-schedule th {
+	background: #1333a6;
+	color: #fff;
+	font-weight: 600;
+}
+
+body.page-id-148 .contributors-day,
+body.page-id-148 .lunch-break,
+body.page-id-148 .opening-remarks,
+body.page-id-148 .registration {
+	background: #c8defd;
+	font-weight: 600;
+}
+
+body.page-id-148 .contributors-day .wcpt-time,
+body.page-id-148 .lunch-break .wcpt-time,
+body.page-id-148 .opening-remarks .wcpt-time,
+body.page-id-148 .registration .wcpt-time {
+	background: #448ef6;
+	color: #fff;
+}
+
+body.page-id-148 .contributors-day a:not( .fav-session-button ),
+body.page-id-148 .lunch-break a:not( .fav-session-button ),
+body.page-id-148 .opening-remarks a:not( .fav-session-button ),
+body.page-id-148 .registration a:not( .fav-session-button ) {
+	color: #000;
+}
+
+body.page-id-148 .wcpt-session-speakers {
+	clear: both;
+	display: block;
+	font-weight: 600;
+	margin-top: 10px;
+}
+
+body.page-id-148 .wcpt-session-speakers a {
+	color: #1333a6;
+}
+
+button, a.btn-sm {
+	width: 220px !important;
+	display: inline-block;
+    margin-left: auto;
+    margin-right: auto
+}
+/* cels */
+.wcpt-time-1330,
+.wcpt-time-0915,
+.wcpt-time-0845{
+	background: #c8defd;
+}
+.wcpt-time-1330 a,
+.wcpt-time-0915 a,
+.wcpt-time-0845 a{
+	color:#000;
+}
+
+/* 11.2 Tickets
+======================================*/
+#tix-attendees .avatar {
+    float: left;
+    width: 65px!important;
+    height: 65px!important;
+	-webkit-border-radius: 80px!important;
+	-moz-border-radius: 80px!important;
+	border-radius: 80px!important;
+}
+
+#tix-attendees .tix-field {
+    display: block;
+    margin-left: 4.375rem;
+    font-size: 1rem!important;
+}
+
+#tix .tix-submit .tix-checkout-button{
+	padding:1.1875rem!important;
+}
+
+/* 11.3 Budget
+======================================*/
+.budget th {
+    padding: 10px;
+    text-align: center;
+    background: rgba(66, 159, 253, 1);
+    color: rgba(255, 255, 255, 1);
+}
+
+.budget td {
+    padding: 8px;
+    border: 1px solid rgba(204, 202, 196, 1);
+}
+
+.budget table {
+    border-collapse: collapse;
+    border-spacing: 0;
+    font-size: .8rem;
+    border: 1px solid rgba(66, 159, 253, 1);
+    margin-bottom: 1.25rem;
+}
+
+.budget tfoot td {
+    background: rgba(204, 202, 196, 1);;
+}
+
+
+/* 11.4 Organizers
+======================================*/
+.wcorg-organizer {
+	padding:0.83rem 0 0.83rem 0;
+	border-bottom:1px solid rgba(14,99,216,0.3);
+}
+.wcorg-organizer h2{
+	margin-bottom: 1.38rem;
+}
+.wcorg-organizer-description {
+	font-size:1em
+}
+
+.wcorg-organizer .wcorg-organizer-description:after {
+	clear:both;
+	content:'';
+	display:table
+}
+.wcorg-organizer .avatar {
+	float:left;
+	margin:0 1rem 1rem 0;
+	border-radius:50%;
+	-webkit-border-radius: 50%;
+	-moz-border-radius: 50%;
+}
+.wcorg-organizer div.sharedaddy {
+	display:none
+}
+
+/* 11.4 Sponsors
+======================================*/
+.wcorg-sponsors img {
+max-height: 200px!important;
+}
+
+.wcorg-sponsors h3 {
+	font-size: 2em;
+	margin: 0 0 15px 0;
+}
+
+.wcorg-sponsor-level-bronze img {
+	height:auto;
+	max-width: 180px;
+	display: block;
+	margin-bottom:20px
+}
+
+/* Business */
+.wcorg-sponsor-level-small-business img{
+	height: auto;
+	max-width: 220px;
+		display: block;
+		margin-bottom:20px
+}
+
+.wcorg-sponsor-level-business img {
+	height: auto;
+	max-width: 240px;
+		display: block;
+		margin-bottom:20px
+}
+
+.wcorg-sponsor-level-silver img {
+	height: auto;
+	max-width: 360px;
+	display: block;
+	margin-bottom:20px
+}
+
+.wcorg-sponsor-level-gold img {
+	height: auto;
+	max-width: 420px;
+display: block;
+margin-bottom:20px
+}
+
+.c-media-sponsors {
+	display: grid;
+	grid-template-columns: repeat(2,1fr);
+	align-items: center;
+	grid-gap: 60px;
+	padding-bottom: 30px;
+}
+
+/* 11.6 Badges
+======================================*/
+.page-slug-wcath2019-badges .wp-block-column .wp-block-image {
+	margin-bottom: 0 !important;
+}
+
+.page-slug-wcath2019-badges .wp-block-column pre.wp-block-code {
+	white-space: pre-wrap;
+	word-wrap: break-word;
+	background: #fff;
+	padding: 10px;
+	font-size: 11px;
+	border:1px solid #ccc;
+	margin-top:10px;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+}
+
+/*======================================
+	12. Contact page
+---------------------------------------*/
+/* 12.1 Textarea
+=======================================*/
+.contact-form textarea{
+	border: 1px solid rgba(215,215,215,1)!important;
+}
+
+p.contact-submit input[type="submit"] {
+    width: 25%;
+}
+
+/*======================================
+	13. Responsive
+---------------------------------------*/
+/* 13.1 Primary and Sidebar
+=======================================*/
+
+@media screen and (min-width: 62em) {
+	#primary {
+		float:left;
+		width:70%
+	}
+	#secondary {
+		float:right;
+		width:30%
+	}
+}
+
+#secondary,
+#content {
+	padding: 1.5rem 1rem;
+}
+
+@media (min-width:48em) {
+	#secondary,
+	#content {
+		padding: 3rem 2rem;
+	}
+}
+
+@media (min-width:62em) {
+	#content {
+		padding: 4.5rem 3rem;
+	}
+}
+
+#text-16 a img{
+	max-height: 200px;
+	display: flex;
+	margin: auto;
+}
+
+/* 13.2 Home Title
+======================================*/
+@media screen and (max-width: 480px){
+	.home .site-title {
+		width:240px;
+		height:240px
+	}
+}
+
+@media print,screen and (min-width: 768px) {
+	.home .site-title {
+		width:300px;
+		height:380px
+	}
+}
+
+@media screen and (min-width: 1024px) {
+	.home .site-title {
+		width:550px;
+		height:550px;
+	}
+}
+@media print,screen and (min-width: 768px) {
+	.site-title {
+		width:250px;
+		height:200px
+	}
+}
+@media screen and (min-width: 1024px) {
+	.site-title {
+		width:400px;
+		height:379px
+	}
+}
+
+/* 13.3 Widget Section
+======================================*/
+@media screen and (min-width: 576px) {
+	#after-header-widgets .widget {
+		width:25%;
+	}
+}
+
+
+/* 13.4 Table
+======================================*/
+
+table{
+	width: 100%;
+	border-collapse: collapse;
+	text-align: left;
+	margin-bottom: 1.5rem;
+}
+td,th{
+	padding: 1rem;
+	border-top: 1px solid rgba(0,0,0,.1);
+	font-size: 16px;
+	font-size: 1rem;
+	line-height: 1.5;
+}
+
+
+@media screen and (max-width:768px) {
+	table {width:100%; border:none!important;}
+	thead {display: none;}
+	tr:nth-of-type(2n) {background-color: inherit;}
+	tr td:first-child {background: rgba(240, 240, 240, 1); font-weight:500; font-size:1.3125em;}
+	tbody td {display: block;  text-align:center;}
+	tbody td:before {
+		content: attr(data-th);
+		display: block;
+		text-align:center;
+  }
+}
+/* Styling ticket form to small devices */
+@media screen and (max-width:600px) {
+	.tix-attendee-form td.tix-left,
+	.tix-attendee-form td.tix-right	{
+		width: 100%;
+	}
+	.tix-attendee-form input[type='text'],
+	.tix-attendee-form input[type='email'],
+	.tix-attendee-form input[type='url'],
+	.tix-order-summary .tix-column-description{
+		width: 100%!important;
+	}
+	tr td:first-child {
+    font-size: 1.0125em;
+	}
+}
+@media screen and (max-width:768px) and (min-width:600px) {
+	.tix-order-summary .tix-column-description{
+		width: 100%!important;
+	}
+	.tix-attendee-form td.tix-left{
+		width: 40%;
+		float: left;
+	}
+	.tix-attendee-form td.tix-right{
+		width: 60%;
+		float: left;
+	}
+}
+
+/*  13.5 Footer
+======================================*/
+@media screen and (max-width: 1023px) {
+	.site-info .site-info-generator {
+		padding-top:9.375rem;
+	}
+}
+
+/* 13.6 Fluid Typography
+======================================*/
+/* 1.8125em(29px) @ 30em(480px) increasing to 2em(32px) @ 120em(1920px) */
+@media (min-width: 30em) {
+	h1 {
+	  font-size: calc(1.8125rem + ((1vw - 0.3em) * 0.2083));
+	  /* Where: * 0.2083 = 100 * font_Size_Difference / viewport_Width_Difference */
+	}
+}
+  /* Prevent font scaling beyond this breakpoint */
+  @media (min-width: 120em) {
+	h1 {
+	  font-size: 2em;
+	}
+}
