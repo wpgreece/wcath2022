@@ -1155,7 +1155,7 @@ textarea:focus{
 	overflow:hidden;
 	-webkit-background-size:85% auto;
 	-moz-background-size:85% auto;
-	background-size: 70% auto;
+	background-size: 100% auto;
 	background-position: 0px center;
 }
 
