@@ -1155,8 +1155,8 @@ textarea:focus{
 	overflow:hidden;
 	-webkit-background-size:85% auto;
 	-moz-background-size:85% auto;
-	background-size: 85% auto;
-	background-position: 45px center;
+	background-size: 70% auto;
+	background-position: center;
 }
 
 .site-description {
@@ -2114,7 +2114,7 @@ p.contact-submit input[type="submit"] {
 
 @media screen and (min-width: 1024px) {
 	.home .site-title {
-		width:550px;
+		width:320px;
 		height:550px;
 	}
 }
