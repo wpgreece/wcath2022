@@ -2114,8 +2114,8 @@ p.contact-submit input[type="submit"] {
 
 @media screen and (min-width: 1024px) {
 	.home .site-title {
-		width:550px;
-		height:550px;
+		width:400px;
+		height:400px;
 	}
 }
 @media print,screen and (min-width: 768px) {
@@ -2126,7 +2126,7 @@ p.contact-submit input[type="submit"] {
 }
 @media screen and (min-width: 1024px) {
 	.site-title {
-		width:400px;
+		width:290px;
 		height:379px
 	}
 }
