@@ -163,7 +163,7 @@
    */
 
   hr {
-	background-image: url('https://2020.athens.wordcamp.org/files/2020/01/line.jpg');
+	background-image: url('https://2020.athens.wordcamp.org/files/2020/01/line-1.jpg');
     width: 120px;
     height: 15px;
 	margin: 0 auto;
@@ -1274,7 +1274,7 @@ textarea:focus{
 	display: block;
 	position: absolute;
 	content: "";
-	background-image: url('https://2020.athens.wordcamp.org/files/2020/01/line.jpg');
+	background-image: url('https://2020.athens.wordcamp.org/files/2020/01/line-1.jpg');
     width: 120px;
     height: 15px;
 	margin: 0 auto;
