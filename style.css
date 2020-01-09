@@ -1598,7 +1598,7 @@ p#subscribe-email{
 /* 9.1 Site Info
 ========================================*/
 .site-info {
-	background-color:rgba(19, 51, 166, 1);
+	background-color: rgb(68, 142, 246);
 	padding:4rem;
 	text-align:center
 }
@@ -1616,7 +1616,7 @@ p#subscribe-email{
 		-moz-box-sizing: border-box;
 		-webkit-box-sizing: border-box;
 		box-sizing: border-box;
-		color: rgba(19,51,166,1);
+		color: rgb(68, 142, 246);
 		cursor: pointer;
 		font-size: .75em;
 		padding:.5rem;
