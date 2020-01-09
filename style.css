@@ -2120,8 +2120,8 @@ p.contact-submit input[type="submit"] {
 }
 @media print,screen and (min-width: 768px) {
 	.site-title {
-		width:250px;
-		height:200px
+		width: 250px;
+		height: 250px;
 	}
 }
 @media screen and (min-width: 1024px) {
