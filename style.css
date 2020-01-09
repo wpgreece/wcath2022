@@ -1156,7 +1156,7 @@ textarea:focus{
 	-webkit-background-size:85% auto;
 	-moz-background-size:85% auto;
 	background-size: 85% auto;
-	background-position: 45px center;
+	background-position: 0px center;
 }
 
 .site-description {
