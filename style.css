@@ -51,6 +51,7 @@
 	13.4 Table
 	13.5 Footer
 	13.6 Fluid Typography
+14. EU Cookie Widget
 
 */
 
@@ -2226,4 +2227,48 @@ td,th{
 	h1 {
 	  font-size: 2em;
 	}
+}
+
+/* 14 EU Cookie Widget
+======================================*/
+
+#eu-cookie-law {
+    background-color: 
+#fff;
+border: 1px solid
+#dedede;
+color:
+    #2e4467;
+    font-size: 12px;
+    line-height: 1.5;
+    overflow: hidden;
+    padding: 30px;
+        padding-bottom: 30px;
+    position: relative;
+    width: 300px;
+}
+
+#eu-cookie-law input, #eu-cookie-law input:focus, #eu-cookie-law input:hover {
+    background:  #448ef6;
+	border: 1px solid #448ef6;
+	border-radius: 4px;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	color:white;
+    cursor: pointer;
+    display: inline;
+    float: right;
+    font-family: inherit;
+    font-size: 14px;
+    font-weight: inherit;
+    line-height: inherit;
+    margin: 0 0 22px 5%;
+    padding: 8px 12px;
+    position: static;
+    text-transform: none;
+}
+
+.wpgc-tba {
+	-webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+	filter: grayscale(100%);
 }
