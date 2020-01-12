@@ -173,7 +173,8 @@
 	bottom: 0;
 	background-repeat: no-repeat;
     bottom: 0;
-    background-size: 100%;
+	border: none;
+	background-size: 100%;
   }
 
   /**
