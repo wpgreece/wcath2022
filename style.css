@@ -1136,17 +1136,17 @@ textarea:focus{
 }
 
 .site-header {
-	background:url('https://2020.athens.wordcamp.org/files/2020/01/48285641821_9b638ecdc9_k.jpg') 50% 100% no-repeat;
+	background: url('https://2020.athens.wordcamp.org/files/2020/01/HeaderImage-BackroundImage.jpg') 50% 100% no-repeat;
 	background-size:cover;
 	-webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
 	position:relative;
 	text-align:center;
 	background-attachment: fixed;
 }
 .site-title {
-	background:url('https://2020.athens.wordcamp.org/files/2020/01/Asset-2.png') no-repeat;
+	background: url('https://2020.athens.wordcamp.org/files/2020/01/HeaderImage-Graphics.png') no-repeat;
 	width:271px;
 	height:500px;
 	margin:0 auto;
@@ -2116,7 +2116,7 @@ p.contact-submit input[type="submit"] {
 
 @media screen and (min-width: 1024px) {
 	.home .site-title {
-		width:400px;
+		width:685px;
 		height:400px;
 	}
 }
