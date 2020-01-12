@@ -605,10 +605,10 @@ h1 {
 }
 
 h2 {
-	font-size: 1.5556em; /* 28px */
-	line-height: 1.9286em; /* 54px */
-	margin-top: 0.9643em;
-	margin-bottom: 0.0000em;
+	font-size: 1.5556em;
+	line-height: 1.5em;
+	margin-top: .9643em;
+	margin-bottom: 1rem;
 }
 
 h3 {
