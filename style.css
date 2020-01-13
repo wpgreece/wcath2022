@@ -1370,7 +1370,7 @@ a.more-link {
 .entry-content blockquote::before {
 	content: "\""
     font-size: 80px;
-    font-family: Georgia;
+    font-family: 'Georgia', serif !important;
     position: absolute;
     left: 10px;
     color: #448ef6;
