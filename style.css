@@ -1364,14 +1364,13 @@ a.more-link {
 .comment-content blockquote {
 	border-top: 2px solid rgb(68, 142, 246);
     border-bottom: 2px solid rgb(68, 142, 246);
-    font-family: 'Ubuntu', sans-serif;
     padding: 3rem;
 }
 
 .entry-content blockquote::before {
     content: open-quote;
     font-size: 80px;
-    font-family: georgia;
+    font-family: Georgia;
     position: absolute;
     left: 10px;
     color: #448ef6;
