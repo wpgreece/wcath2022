@@ -1368,7 +1368,7 @@ a.more-link {
 }
 
 .entry-content blockquote::before {
-    content: open-quote;
+	content: "\""
     font-size: 80px;
     font-family: Georgia;
     position: absolute;
