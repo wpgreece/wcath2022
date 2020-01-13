@@ -1364,9 +1364,19 @@ a.more-link {
 
 .entry-content blockquote,
 .comment-content blockquote {
-	border-left:3px solid rgba(204, 202, 196, 1);
-	font-family: 'Ubuntu', sans-serif;
-	padding:1rem;
+	border-top: 2px solid rgb(68, 142, 246);
+    border-bottom: 2px solid rgb(68, 142, 246);
+    font-family: 'Ubuntu', sans-serif;
+    padding: 3rem;
+}
+
+.entry-content blockquote::before {
+    content: open-quote;
+    font-size: 80px;
+    font-family: georgia;
+    position: absolute;
+    left: 10px;
+    color: #448ef6;
 }
 
 .entry-content blockquote p:last-child,.comment-content blockquote p:last-child {
@@ -1613,24 +1623,24 @@ p#subscribe-email{
 }
 
 .site-info .site-info-network {
-		-moz-box-sizing: border-box;
-		-webkit-box-sizing: border-box;
-		box-sizing: border-box;
-		color: rgb(68, 142, 246);
-		cursor: pointer;
-		font-size: .75em;
-		padding:.5rem;
-		position: relative;
-		text-decoration: none;
-		bottom:0px;
-		top:25px;
-		z-index: 900;
-		-webkit-border-radius: 3px;
-		-moz-border-radius: 3px;
-		border-radius: 3px;
-		margin:0 auto;
-		background-color:rgba(255,255,255,1);
-		display: inline-block;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+	color: white
+	cursor: pointer;
+	font-size: .75em;
+	padding:.5rem;
+	position: relative;
+	text-decoration: none;
+	bottom:0px;
+	top:25px;
+	z-index: 900;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+	margin:0 auto;
+	background-color:rgba(255,255,255,1);
+	display: inline-block;
 }
 
 /*======================================
