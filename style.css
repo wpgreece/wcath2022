@@ -1624,7 +1624,7 @@ p#subscribe-email{
 	-moz-box-sizing: border-box;
 	-webkit-box-sizing: border-box;
 	box-sizing: border-box;
-	color: white
+    color: #448ef6;
 	cursor: pointer;
 	font-size: .75em;
 	padding:.5rem;
