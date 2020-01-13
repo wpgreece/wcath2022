@@ -2261,7 +2261,7 @@ color:#2e4467;
 	border-radius: 4px;
 	-moz-border-radius: 3px;
 	-webkit-border-radius: 3px;
-	color:white;
+	color:white !important;
     cursor: pointer;
     display: inline;
     float: right;
