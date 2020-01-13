@@ -51,6 +51,7 @@
 	13.4 Table
 	13.5 Footer
 	13.6 Fluid Typography
+14. EU Cookie Widget
 
 */
 
@@ -172,7 +173,8 @@
 	bottom: 0;
 	background-repeat: no-repeat;
     bottom: 0;
-    background-size: 100%;
+	border: none;
+	background-size: 100%;
   }
 
   /**
@@ -583,7 +585,7 @@ input[type='submit']{
 body {
 	background:rgba(255, 255, 255, 1);
 	color:rgba(0,0,0,.8);
-	font-family: 'Roboto', sans-serif;
+	font-family: 'Open Sans', sans-serif;
 	font-size:1.125em;
 	line-height:1.5;
 }
@@ -593,7 +595,7 @@ h1, h2, h3, h4, h5, h6 {
 	-ms-word-wrap: break-word;
 	word-wrap: break-word;
 	font-weight: 700;
-	font-family: 'Ubuntu', sans-serif;
+	font-family: 'Noto Serif', serif;
 }
 
 h1 {
@@ -604,10 +606,10 @@ h1 {
 }
 
 h2 {
-	font-size: 1.5556em; /* 28px */
-	line-height: 1.9286em; /* 54px */
-	margin-top: 0.9643em;
-	margin-bottom: 0.0000em;
+	font-size: 1.5556em;
+	line-height: 1.5em;
+	margin-top: .9643em;
+	margin-bottom: 1rem;
 }
 
 h3 {
@@ -820,9 +822,6 @@ textarea:focus{
 	text-align:center;
 	width:100%;
 	z-index:900;
-	-webkit-box-shadow: 0px 3px 6px 0px rgba(0, 0, 0, 0.2);
-	-moz-box-shadow:    0px 3px 6px 0px rgba(0, 0, 0, 0.2);
-	box-shadow:         0px 3px 6px 0px rgba(0, 0, 0, 0.2);
 }
 
 .menu-toggle {
@@ -1138,17 +1137,17 @@ textarea:focus{
 }
 
 .site-header {
-	background:url('https://2020.athens.wordcamp.org/files/2020/01/48285641821_9b638ecdc9_k.jpg') 50% 100% no-repeat;
+	background: url('https://2020.athens.wordcamp.org/files/2020/01/HeaderImage-BackroundImage.jpg') 50% 100% no-repeat;
 	background-size:cover;
 	-webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
 	position:relative;
 	text-align:center;
 	background-attachment: fixed;
 }
 .site-title {
-	background:url('https://2020.athens.wordcamp.org/files/2020/01/Asset-2.png') no-repeat;
+	background: url('https://2020.athens.wordcamp.org/files/2020/01/HeaderImage-Graphics.png') no-repeat;
 	width:271px;
 	height:500px;
 	margin:0 auto;
@@ -1174,7 +1173,6 @@ textarea:focus{
 	position: absolute;
 	top: 0;
 	left: 0;
-	background: rgba(68, 142, 246, 0.7);
 	z-index: 100;
 }
 
@@ -1255,7 +1253,7 @@ textarea:focus{
 ======================================*/
 .page .site-header,
 .single .site-header {
-    background: url('https://2020.athens.wordcamp.org/files/2020/01/48285641821_9b638ecdc9_k.jpg') 50% 80% no-repeat;
+    background: url('https://2020.athens.wordcamp.org/files/2020/01/HeaderImage-BackroundImage.jpg') 50% 80% no-repeat;
   -webkit-background-size: cover!important;
   -moz-background-size: cover!important;
   -o-background-size: cover!important;
@@ -1712,7 +1710,7 @@ li.share-email a.sd-button > span,
 li.share-jetpack-whatsapp a.sd-button > span {
 	border: none!important;
 	color: rgba(255,255,255,1)!important;
-	font-family: 'Roboto', sans-serif;
+	font-family: 'Open Sans', sans-serif;
 	font-weight: 300;
 	letter-spacing: 0;
 	text-transform: uppercase;
@@ -2128,7 +2126,7 @@ p.contact-submit input[type="submit"] {
 
 @media screen and (min-width: 1024px) {
 	.home .site-title {
-		width:400px;
+		width:685px;
 		height:400px;
 	}
 }
@@ -2140,7 +2138,7 @@ p.contact-submit input[type="submit"] {
 }
 @media screen and (min-width: 1024px) {
 	.site-title {
-		width:290px;
+		width:500px;
 		height:379px
 	}
 }
@@ -2236,4 +2234,48 @@ td,th{
 	h1 {
 	  font-size: 2em;
 	}
+}
+
+/* 14 EU Cookie Widget
+======================================*/
+
+#eu-cookie-law {
+    background-color: 
+#fff;
+border: 1px solid
+#dedede;
+color:
+    #2e4467;
+    font-size: 12px;
+    line-height: 1.5;
+    overflow: hidden;
+    padding: 30px;
+        padding-bottom: 30px;
+    position: relative;
+    width: 300px;
+}
+
+#eu-cookie-law input, #eu-cookie-law input:focus, #eu-cookie-law input:hover {
+    background:  #448ef6;
+	border: 1px solid #448ef6;
+	border-radius: 4px;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	color:white;
+    cursor: pointer;
+    display: inline;
+    float: right;
+    font-family: inherit;
+    font-size: 14px;
+    font-weight: inherit;
+    line-height: inherit;
+    margin: 0 0 22px 5%;
+    padding: 8px 12px;
+    position: static;
+    text-transform: none;
+}
+
+.wpgc-tba {
+	-webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+	filter: grayscale(100%);
 }
