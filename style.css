@@ -2243,16 +2243,17 @@ td,th{
 ======================================*/
 
 #eu-cookie-law {
-    background-color: #fff;
-border: 1px solid #dedede;
-color:#2e4467;
+	background-color: #fff;
+    border: 1px solid #dedede;
+    color: #2e4467;
     font-size: 12px;
     line-height: 1.5;
     overflow: hidden;
-    padding: 30px;
-        padding-bottom: 30px;
+    padding: 20px 15px 10px 15px;
     position: relative;
-    width: 300px !important;
+    display: flex;
+	flex-direction: column-reverse;
+	width: 310px !important;
 }
 
 #eu-cookie-law input, #eu-cookie-law input:focus, #eu-cookie-law input:hover {
@@ -2273,7 +2274,7 @@ color:#2e4467;
     padding: 8px 12px;
     position: static;
 	text-transform: none;
-	margin: 0px 0px 20px 5% !important;
+	margin: 20px 0px 20px 0% !important;
 }
 
 .wpgc-tba {
