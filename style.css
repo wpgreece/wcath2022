@@ -2249,7 +2249,7 @@ td,th{
     font-size: 12px;
     line-height: 1.5;
     overflow: hidden;
-    padding: 20px 15px 10px 15px;
+    padding: 15px 16px 6px 15px;
     position: relative;
     display: flex;
 	flex-direction: column-reverse;
