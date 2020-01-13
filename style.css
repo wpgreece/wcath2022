@@ -1196,6 +1196,10 @@ textarea:focus{
 	max-width:80%
 }
 
+.admin-bar .navbar-fixed-top {
+	top: 32px;
+}
+
 /* 4.2 Widgets Section
 ======================================*/
 #after-header-widgets {
