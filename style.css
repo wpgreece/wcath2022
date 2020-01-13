@@ -2273,7 +2273,7 @@ color:#2e4467;
     padding: 8px 12px;
     position: static;
 	text-transform: none;
-	margin-bottom: 1rem;
+	margin-bottom: 1rem !important;
 }
 
 .wpgc-tba {
