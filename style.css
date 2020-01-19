@@ -1586,7 +1586,7 @@ p#subscribe-email{
 
 /* 8.2 Title of Register Section
 ======================================*/
-#text-4{
+#text-2{
 	max-width: 73.125rem;
 	margin: 11.8125rem auto;
 	display: flex;
@@ -1594,7 +1594,7 @@ p#subscribe-email{
 	flex-wrap: wrap;
 }
 
-#text-4 h1.widget-title {
+#text-2 h1.widget-title {
     font-size:2em;
 	font-weight: 700;
 	flex: 1 0 50%;
