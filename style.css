@@ -2308,3 +2308,9 @@ figcaption {
 .entry-content ul {
 	margin-bottom: 1.5em;
 }
+
+.widget {
+    padding-bottom: 1.875rem;
+    border-bottom: 2px solid #448ef6;
+    margin-bottom: 1rem;
+}
