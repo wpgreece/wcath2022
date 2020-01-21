@@ -1271,15 +1271,15 @@ textarea:focus{
 
 .post::after{
 	display: block;
-	position: absolute;
-	content: "";
-	background-image: url('https://2020.athens.wordcamp.org/files/2020/01/line-1.jpg');
-    width: 120px;
+    position: absolute;
+    content: "";
+    background-image: url('https://2020.athens.wordcamp.org/files/2020/01/Waves-Seperator-01.png');
+    width: 150px;
     height: 15px;
-	margin: 0 auto;
-	left:0;
-	right:0;
-	background-repeat: no-repeat;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    background-repeat: no-repeat;
     bottom: 0;
     background-size: 100%;
 }
