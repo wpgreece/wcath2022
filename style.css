@@ -2314,3 +2314,14 @@ figcaption {
     border-bottom: 2px solid #448ef6;
     margin-bottom: 1rem;
 }
+
+.wordcamp-image__avatar-container img {
+	border-radius: 50%;
+
+}
+
+h3.wordcamp-block__item-title.wordcamp-organizers__title {
+    margin-bottom: 2rem;
+    border-bottom: 3px solid #1233a6;
+    padding-bottom: 1rem;
+}
