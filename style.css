@@ -2112,7 +2112,7 @@ p.contact-submit input[type="submit"] {
 ======================================*/
 @media screen and (max-width: 480px){
 	.home .site-title {
-		width:240px;
+		width:410px;
 		height:240px
 	}
 }
