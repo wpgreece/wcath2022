@@ -1606,7 +1606,7 @@ p#subscribe-email{
 /* 9.1 Site Info
 ========================================*/
 .site-info {
-	background-color: rgb(68, 142, 246);
+	background-color: #1233a6;
 	padding:4rem;
 	text-align:center
 }
@@ -2321,7 +2321,10 @@ figcaption {
 }
 
 h3.wordcamp-block__item-title.wordcamp-organizers__title {
-    margin-bottom: 2rem;
-    border-bottom: 3px solid #1233a6;
-    padding-bottom: 1rem;
+    margin-bottom: 1rem;
+    margin-top: 3rem;
+    padding-bottom: 0rem;
+    color: #1233a6;
+    font-size: 1.3667em;
 }
+
