@@ -2336,3 +2336,12 @@ blockquote {
     position: relative;
     color: #383838;
 }
+
+blockquote:before {
+    display: block;
+    content: "\201C";
+    font-size: 80px;
+    position: absolute;
+    left: -10px;
+    top: -10px;    
+}
