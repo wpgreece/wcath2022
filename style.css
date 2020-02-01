@@ -2328,3 +2328,11 @@ h3.wordcamp-block__item-title.wordcamp-organizers__title {
     font-size: 1.3667em;
 }
 
+blockquote {
+    width: 100%;
+    margin: 0.25em 0;
+    padding: 0.25em 40px;
+    line-height: 1.45;
+    position: relative;
+    color: #383838;
+}
