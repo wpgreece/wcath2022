@@ -2328,6 +2328,7 @@ h3.wordcamp-block__item-title.wordcamp-organizers__title {
     font-size: 1.3667em;
 }
 
+/*BLOCKQUOTE ALL PAGES*/
 blockquote {
     width: 100%;
     margin: 0.25em 0;
@@ -2344,4 +2345,9 @@ blockquote:before {
     position: absolute;
     left: -10px;
     top: -10px;    
+}
+
+/*CONCENT COOKIE*/
+.widget_eu_cookie_law_widget {
+	width: 310px;
 }
