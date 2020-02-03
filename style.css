@@ -2347,7 +2347,9 @@ blockquote:before {
     top: -10px;    
 }
 
-/*CONCENT COOKIE*/
+/*CONSENT COOKIE*/
 .widget_eu_cookie_law_widget {
 	width: 310px !important;
+	left: auto !important;
+	right: 1em !important;
 }
