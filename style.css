@@ -2357,3 +2357,61 @@ blockquote:before {
 #eu-cookie-law > br {
     display: none;
 }
+
+/*CUSTOMIZER CSS*/
+.wp-block-quote {
+	width: auto;
+	padding: 3rem 5rem !important;
+	font-size: 130%;
+	font-family: 'Noto Serif', serif;
+}
+
+.wp-block-button {
+	margin: 0 0 1.5em;
+	padding: 1rem;
+}
+
+.wp-block-button__link {
+	background-color: rgba(19,51,166,1);
+}
+
+#custom_html-10 a {
+	display: grid;
+	grid-template-columns: 20px 1fr;
+	grid-gap: 10px;
+	margin-bottom: 5px;
+	align-items: center;
+}
+
+.wordcamp-organizers .wordcamp-organizer {
+	display: grid;
+	grid-gap: 15px;
+	grid-template-columns: 160px 1fr;
+	grid-template-rows: 1fr;
+}
+
+h3.wordcamp-block__item-title.wordcamp-organizers__title {
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
+.wordcamp-organizers .wordcamp-organizers__title {
+	grid-column-start: 1;
+	grid-column-end: 3;
+}
+
+@media (max-width: 425px) {
+	.wordcamp-organizers .wordcamp-image__avatar-container,
+			.wordcamp-organizers .wordcamp-organizers__content {
+		grid-column-start: 1;
+		grid-column-end: 3;
+	}
+	
+	.site-header .site-title {
+		width: 230px;
+		height: 270px;
+		background: url('https://2020.athens.wordcamp.org/files/2020/02/HeaderImage-Graphics_Vertical.png');
+		background-size: 100%;
+		background-repeat: no-repeat;
+	}
+}
