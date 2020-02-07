@@ -743,7 +743,8 @@ input[type='submit'] {
 }
 
 a.btn.primary-btn:hover,
-input[type='submit']:hover {
+input[type='submit']:hover,
+button[type='submit']:hover {
 	background-color:rgba(14, 99, 216, 1);
 	color:rgba(255,255,255,1);
 	text-decoration:none;
