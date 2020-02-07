@@ -1602,6 +1602,13 @@ p#subscribe-email{
 	text-align: center;
 }
 
+@media ( max-width: 768px ) {
+	#footer-widgets #custom_html-11 h2 {
+		font-size: 1.3em;
+		margin-bottom: 10px;
+	}
+}
+
 /* 8.2 Title of Register Section
 ======================================*/
 #text-2{
