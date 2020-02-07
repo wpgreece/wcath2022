@@ -1,5 +1,5 @@
 /*/*======================================
-    Table Of Contents
+	Table Of Contents
 /*======================================
 
 01. Normalize csss
@@ -160,19 +160,28 @@
    * 2. Show the overflow in Edge and IE.
    */
 
-  hr {
+hr {
 	background-image: url('https://2020.athens.wordcamp.org/files/2020/01/line-1.jpg');
-    width: 120px;
-    height: 15px;
+	width: 120px;
+	height: 15px;
 	margin: 0 auto;
 	left: 0;
 	right: 0;
 	bottom: 0;
 	background-repeat: no-repeat;
-    bottom: 0;
+	bottom: 0;
 	border: none;
 	background-size: 100%;
-  }
+}
+
+hr.wp-block-separator {
+	margin-top: 100px;
+	margin-bottom: 100px;
+}
+
+span.engish-text-anchor {
+	display: none;
+}
 
   /**
    * 1. Correct the inheritance and scaling of font size in all browsers.
@@ -1255,13 +1264,13 @@ textarea:focus{
 ======================================*/
 .page .site-header,
 .single .site-header {
-    background: url('https://2020.athens.wordcamp.org/files/2020/01/HeaderImage-BackroundImage.jpg') 50% 80% no-repeat;
+	background: url('https://2020.athens.wordcamp.org/files/2020/01/HeaderImage-BackroundImage.jpg') 50% 80% no-repeat;
   -webkit-background-size: cover!important;
   -moz-background-size: cover!important;
   -o-background-size: cover!important;
   background-size: cover!important;
-     text-align: center;
-    position: relative;
+	 text-align: center;
+	position: relative;
 }
 
 .post{
@@ -1272,24 +1281,24 @@ textarea:focus{
 
 .post::after{
 	display: block;
-    position: absolute;
-    content: "";
-    background-image: url('https://2020.athens.wordcamp.org/files/2020/01/Waves-Seperator-01.png');
-    width: 150px;
-    height: 15px;
-    margin: 0 auto;
-    left: 0;
-    right: 0;
-    background-repeat: no-repeat;
-    bottom: 0;
-    background-size: 100%;
+	position: absolute;
+	content: "";
+	background-image: url('https://2020.athens.wordcamp.org/files/2020/01/Waves-Seperator-01.png');
+	width: 150px;
+	height: 15px;
+	margin: 0 auto;
+	left: 0;
+	right: 0;
+	background-repeat: no-repeat;
+	bottom: 0;
+	background-size: 100%;
 }
 
 a.more-link {
-    display: inline-block;
-    margin: 2rem 0  1rem 0;
-    color: rgba(14, 99, 216, 1);
-    font-weight: 500;
+	display: inline-block;
+	margin: 2rem 0  1rem 0;
+	color: rgba(14, 99, 216, 1);
+	font-weight: 500;
 	text-decoration: underline;
 	letter-spacing: 0.01em;
 }
@@ -1365,17 +1374,17 @@ a.more-link {
 .entry-content blockquote,
 .comment-content blockquote {
 	border-top: 2px solid rgb(68, 142, 246);
-    border-bottom: 2px solid rgb(68, 142, 246);
-    padding: 3rem;
+	border-bottom: 2px solid rgb(68, 142, 246);
+	padding: 3rem;
 }
 
 .entry-content blockquote::before {
 	content: "\201C";
-    font-size: 80px !important;
-    font-family: 'Georgia', serif !important;
-    position: absolute;
-    left: 10px;
-    color: #448ef6;
+	font-size: 80px !important;
+	font-family: 'Georgia', serif !important;
+	position: absolute;
+	left: 10px;
+	color: #448ef6;
 }
 
 .entry-content blockquote p:last-child,.comment-content blockquote p:last-child {
@@ -1560,9 +1569,9 @@ p#subscribe-email{
 =========================================*/
 
 #footer-widget-1 {
-    -moz-box-sizing: border-box;
-    -webkit-box-sizing: border-box;
-    box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
 	padding: 1rem;
 }
 
@@ -1633,7 +1642,7 @@ p#subscribe-email{
 }
 
 #text-2 h1.widget-title {
-    font-size:2em;
+	font-size:2em;
 	font-weight: 700;
 	flex: 1 0 50%;
 }
@@ -1860,24 +1869,24 @@ body.single-wcb_session ul#session-speaker-names a {
 }
 
 .single-wcb_speaker .speaker-avatar img {
-    height: 110px;
-    width: 110px;
+	height: 110px;
+	width: 110px;
 	-webkit-border-radius: 20px!important;
 	-moz-border-radius: 20px!important;
 	border-radius: 20px!important;
-    display: inline;
-    float: left;
-    margin-right: 1rem;
+	display: inline;
+	float: left;
+	margin-right: 1rem;
 }
 .wcorg-speaker-description img {
 	-webkit-border-radius: 90px!important;
 	-moz-border-radius: 90px!important;
 	border-radius: 90px!important;
-    display: inline-block;
-    float: left;
-    margin-right: 1rem;
-    width: 130px!important;
-    height: 130px!important;
+	display: inline-block;
+	float: left;
+	margin-right: 1rem;
+	width: 130px!important;
+	height: 130px!important;
 }
 
 body.page-id-148 .wcpt-schedule th,
@@ -1933,8 +1942,8 @@ body.page-id-148 .wcpt-session-speakers a {
 button, a.btn-sm {
 	width: 220px !important;
 	display: inline-block;
-    margin-left: auto;
-    margin-right: auto
+	margin-left: auto;
+	margin-right: auto
 }
 /* cels */
 .wcpt-time-1330,
@@ -1951,18 +1960,18 @@ button, a.btn-sm {
 /* 11.2 Tickets
 ======================================*/
 #tix-attendees .avatar {
-    float: left;
-    width: 65px!important;
-    height: 65px!important;
+	float: left;
+	width: 65px!important;
+	height: 65px!important;
 	-webkit-border-radius: 80px!important;
 	-moz-border-radius: 80px!important;
 	border-radius: 80px!important;
 }
 
 #tix-attendees .tix-field {
-    display: block;
-    margin-left: 4.375rem;
-    font-size: 1rem!important;
+	display: block;
+	margin-left: 4.375rem;
+	font-size: 1rem!important;
 }
 
 #tix .tix-submit .tix-checkout-button{
@@ -1972,27 +1981,27 @@ button, a.btn-sm {
 /* 11.3 Budget
 ======================================*/
 .budget th {
-    padding: 10px;
-    text-align: center;
-    background: rgba(66, 159, 253, 1);
-    color: rgba(255, 255, 255, 1);
+	padding: 10px;
+	text-align: center;
+	background: rgba(66, 159, 253, 1);
+	color: rgba(255, 255, 255, 1);
 }
 
 .budget td {
-    padding: 8px;
-    border: 1px solid rgba(204, 202, 196, 1);
+	padding: 8px;
+	border: 1px solid rgba(204, 202, 196, 1);
 }
 
 .budget table {
-    border-collapse: collapse;
-    border-spacing: 0;
-    font-size: .8rem;
-    border: 1px solid rgba(66, 159, 253, 1);
-    margin-bottom: 1.25rem;
+	border-collapse: collapse;
+	border-spacing: 0;
+	font-size: .8rem;
+	border: 1px solid rgba(66, 159, 253, 1);
+	margin-bottom: 1.25rem;
 }
 
 .budget tfoot td {
-    background: rgba(204, 202, 196, 1);;
+	background: rgba(204, 202, 196, 1);;
 }
 
 
@@ -2109,7 +2118,7 @@ margin-bottom:20px
 }
 
 p.contact-submit input[type="submit"] {
-    width: 25%;
+	width: 25%;
 }
 
 /*======================================
@@ -2240,7 +2249,7 @@ td,th{
 		width: 100%!important;
 	}
 	tr td:first-child {
-    font-size: 1.0125em;
+	font-size: 1.0125em;
 	}
 }
 @media screen and (max-width:768px) and (min-width:600px) {
@@ -2286,35 +2295,35 @@ td,th{
 
 #eu-cookie-law {
 	background-color: #fff;
-    border: 1px solid #dedede;
-    color: #2e4467;
-    font-size: 12px;
-    line-height: 1.5;
-    overflow: hidden;
+	border: 1px solid #dedede;
+	color: #2e4467;
+	font-size: 12px;
+	line-height: 1.5;
+	overflow: hidden;
 	padding: 15px 16px 6px 15px !important;
-    position: relative;
-    display: flex;
+	position: relative;
+	display: flex;
 	flex-direction: column-reverse;
 	width: 310px !important;
 }
 
 #eu-cookie-law input, #eu-cookie-law input:focus, #eu-cookie-law input:hover {
-    background:  #448ef6 !important;
+	background:  #448ef6 !important;
 	border: 1px solid #448ef6 !important;
 	border-radius: 4px;
 	-moz-border-radius: 3px;
 	-webkit-border-radius: 3px;
 	color:white !important;
-    cursor: pointer;
-    display: inline;
-    float: right;
-    font-family: inherit;
-    font-size: 14px;
-    font-weight: inherit;
-    line-height: inherit;
-    margin: 0 0 22px 5%;
-    padding: 8px 12px;
-    position: static;
+	cursor: pointer;
+	display: inline;
+	float: right;
+	font-family: inherit;
+	font-size: 14px;
+	font-weight: inherit;
+	line-height: inherit;
+	margin: 0 0 22px 5%;
+	padding: 8px 12px;
+	position: static;
 	text-transform: none;
 	margin: 20px 0px 20px 0% !important;
 }
@@ -2325,24 +2334,24 @@ td,th{
 }
 
 .milestone-header {
-    background-color: #448ef6 !important;
-    color: #ffffff !important;
-    line-height: 1.3;
-    margin: 0;
-    padding: .8em;
+	background-color: #448ef6 !important;
+	color: #ffffff !important;
+	line-height: 1.3;
+	margin: 0;
+	padding: .8em;
 }
 
 .milestone-countdown, .milestone-message {
-    background-color: #ffffff !important;
-    border: 1px solid #448ef6 !important;
-    border-top: 0;
-    color: #448ef6 !important;
-    padding-bottom: 1em;
+	background-color: #ffffff !important;
+	border: 1px solid #448ef6 !important;
+	border-top: 0;
+	color: #448ef6 !important;
+	padding-bottom: 1em;
 }
 
 figcaption {
-    font-size: 12px;
-    color: grey;
+	font-size: 12px;
+	color: grey;
 }
 
 .googlemaps iframe {
@@ -2355,9 +2364,9 @@ figcaption {
 }
 
 .widget {
-    padding-bottom: 1.875rem;
-    border-bottom: 2px solid #448ef6;
-    margin-bottom: 1rem;
+	padding-bottom: 1.875rem;
+	border-bottom: 2px solid #448ef6;
+	margin-bottom: 1rem;
 }
 
 .wordcamp-image__avatar-container img {
@@ -2366,30 +2375,30 @@ figcaption {
 }
 
 h3.wordcamp-block__item-title.wordcamp-organizers__title {
-    margin-bottom: 1rem;
-    margin-top: 3rem;
-    padding-bottom: 0rem;
-    color: #1233a6;
-    font-size: 1.3667em;
+	margin-bottom: 1rem;
+	margin-top: 3rem;
+	padding-bottom: 0rem;
+	color: #1233a6;
+	font-size: 1.3667em;
 }
 
 /*BLOCKQUOTE ALL PAGES*/
 blockquote {
-    width: 100%;
-    margin: 0.25em 0;
-    padding: 0.25em 40px;
-    line-height: 1.45;
-    position: relative;
-    color: #383838;
+	width: 100%;
+	margin: 0.25em 0;
+	padding: 0.25em 40px;
+	line-height: 1.45;
+	position: relative;
+	color: #383838;
 }
 
 blockquote:before {
-    display: block;
-    content: "\201C";
-    font-size: 80px;
-    position: absolute;
-    left: -10px;
-    top: -10px;
+	display: block;
+	content: "\201C";
+	font-size: 80px;
+	position: absolute;
+	left: -10px;
+	top: -10px;
 }
 
 /*CONSENT COOKIE*/
