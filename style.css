@@ -1586,6 +1586,22 @@ p#subscribe-email{
 	border-bottom: 0;
 }
 
+/* Reservation Custom HTML Widget */
+#footer-widgets #custom_html-11 {
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+
+#footer-widgets #custom_html-11 h2 {
+	font-family: 'Ubuntu', sans-serif;
+	text-transform: uppercase;
+	display: inline-block;
+}
+
+#footer-widgets #custom_html-11 .custom-html-widget {
+	text-align: center;
+}
+
 /* 8.2 Title of Register Section
 ======================================*/
 #text-2{
@@ -2404,18 +2420,6 @@ h3.wordcamp-block__item-title.wordcamp-organizers__title {
 .wordcamp-organizers .wordcamp-organizers__title {
 	grid-column-start: 1;
 	grid-column-end: 3;
-}
-#footer-widgets #custom_html-11 {
-	margin-top: 50px;
-	margin-bottom: 50px;
-}
-#footer-widgets #custom_html-11 h2 {
-	font-family: 'Ubuntu', sans-serif;
-	text-transform: uppercase;
-}
-
-#footer-widgets #custom_html-11 .custom-html-widget {
-	text-align: center;
 }
 
 @media (max-width: 425px) {
