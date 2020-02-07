@@ -2410,8 +2410,6 @@ h3.wordcamp-block__item-title.wordcamp-organizers__title {
 }
 
 #footer-widgets #custom_html-11 .custom-html-widget {
-	display: grid;
-	grid-template-columns: 1fr 150px;
 	text-align: center;
 }
 
