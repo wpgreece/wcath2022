@@ -1298,6 +1298,10 @@ textarea:focus{
 	background-size: 100%;
 }
 
+body.home article.post:last-child::after {
+	display: none;
+}
+
 a.more-link {
 	display: inline-block;
 	margin: 2rem 0  1rem 0;
