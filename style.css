@@ -1566,11 +1566,9 @@ p#subscribe-email{
 }
 
 #footer-widgets {
-
 	margin: 0 auto;
 	max-width: 100%;
 	background-image: url("https://2019.athens.wordcamp.org/files/2019/01/wcath_2019_register_section@2x.png");
-	height:440px;
 	background-repeat: no-repeat;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
@@ -2403,7 +2401,10 @@ h3.wordcamp-block__item-title.wordcamp-organizers__title {
 	grid-column-start: 1;
 	grid-column-end: 3;
 }
-
+#footer-widgets #custom_html-11 {
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
 #footer-widgets #custom_html-11 h2 {
 	font-family: 'Ubuntu', sans-serif;
 	text-transform: uppercase;
