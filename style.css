@@ -1649,13 +1649,17 @@ p#subscribe-email{
 }
 
 .site-info .site-info-generator {
-	background:url('https://2020.athens.wordcamp.org/files/2020/02/logo_site_info.png') 50% 0 no-repeat;
-	color:rgba(255, 255, 255, 1);;
-	display:block;
-	padding-top:9rem;
-	background-size:160px;
-	width:190px;
-	margin:0 auto;
+	background: url(https://2020.athens.wordcamp.org/files/2020/02/logo_site_info.png) 50% 0 no-repeat;
+	color: rgba(255,255,255,1);
+	display: block;
+	padding-top: 31px;
+	padding-left: 176px;
+	font-size: 15px;
+	background-size: 178px;
+	background-position: left;
+	width: 310px;
+	height: 136px;
+	margin: 0 auto;
 }
 
 .site-info .site-info-network {
