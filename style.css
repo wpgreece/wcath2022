@@ -2355,10 +2355,14 @@ blockquote:before {
 }
 
 #eu-cookie-law > br {
-    display: none;
+	display: none;
 }
 
 /* CUSTOMIZER CSS */
+.site-title a {
+	color: rgba( 68,142,246,0 );
+}
+
 .wp-block-quote {
 	width: auto;
 	padding: 3rem 5rem !important;
