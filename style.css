@@ -1607,7 +1607,7 @@ p#subscribe-email{
 
 /* Reservation Custom HTML Widget */
 #footer-widgets #custom_html-11 {
-	margin-top: 50px;
+	margin-top: 75px;
 	margin-bottom: 50px;
 }
 
@@ -1615,17 +1615,29 @@ p#subscribe-email{
 	font-family: 'Ubuntu', sans-serif;
 	text-transform: uppercase;
 	display: inline-block;
+	margin-top: 0;
+	margin-bottom: 0;
 }
 
 #footer-widgets #custom_html-11 .custom-html-widget {
 	text-align: center;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
 
 #footer-widgets #custom_html-11 a {
 	margin-left: 20px;
+	width: 150px;
+	margin-top: 0;
+	margin-bottom: 0;
 }
 
 @media ( max-width: 768px ) {
+	#footer-widgets #custom_html-11 .custom-html-widget {
+		display: block;
+	}
+
 	#footer-widgets #custom_html-11 h2 {
 		font-size: 1.3em;
 		margin-bottom: 10px;
@@ -1633,7 +1645,6 @@ p#subscribe-email{
 
 	#footer-widgets #custom_html-11 a {
 		display: inline-block;
-		width: 150px;
 		margin-left: 0;
 	}
 }
