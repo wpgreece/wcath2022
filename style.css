@@ -176,12 +176,13 @@ hr {
 
 hr.wp-block-separator {
 	margin-top: 100px;
-	margin-bottom: 100px;
+	margin-bottom: 0;
 }
 
 span.engilsh-text-anchor {
 	visibility: hidden;
 	height: 0px;
+	margin-bottom: 100px;
 	display: inline-block;
 }
 
