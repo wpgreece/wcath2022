@@ -2415,6 +2415,11 @@ h3.wordcamp-block__item-title.wordcamp-organizers__title {
 		height: 450px !important;
 	}
 
+	.site-header hgroup {
+		top: 50%;
+		transform: translateY(-50%);
+	}
+
 	.site-header .site-title {
 		width: 230px;
 		height: 270px;
