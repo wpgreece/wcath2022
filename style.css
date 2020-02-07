@@ -180,7 +180,8 @@ hr.wp-block-separator {
 }
 
 span.engilsh-text-anchor {
-	display: none;
+	visibility: hidden;
+	height: 1px;
 }
 
   /**
