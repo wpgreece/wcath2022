@@ -1582,6 +1582,10 @@ p#subscribe-email{
 	display:table
 }
 
+#footer-widgets .widget {
+	border-bottom: 0;
+}
+
 /* 8.2 Title of Register Section
 ======================================*/
 #text-2{
