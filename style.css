@@ -2404,9 +2404,15 @@ h3.wordcamp-block__item-title.wordcamp-organizers__title {
 	grid-column-end: 3;
 }
 
-.footer-widgets #custom_html-11 h2 {
+#footer-widgets #custom_html-11 h2 {
 	font-family: 'Ubuntu', sans-serif;
 	text-transform: uppercase;
+}
+
+#footer-widgets #custom_html-11 .custom-html-widget {
+	display: grid;
+	grid-template-columns: 1fr 150px;
+	text-align: center;
 }
 
 @media (max-width: 425px) {
