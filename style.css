@@ -1703,7 +1703,13 @@ p#subscribe-email{
 	display: inline-block;
 }
 
-@media
+@media screen and (max-width: 425px) {
+	.site-info .site-info-network {
+		margin-top: 20px;
+		top: unset;
+		left: unset;
+	}
+}
 
 /*======================================
 	10. Social Media Links
