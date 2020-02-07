@@ -1602,14 +1602,20 @@ p#subscribe-email{
 	text-align: center;
 }
 
+#footer-widgets #custom_html-11 a {
+	margin-left: 20px;
+}
+
 @media ( max-width: 768px ) {
 	#footer-widgets #custom_html-11 h2 {
 		font-size: 1.3em;
 		margin-bottom: 10px;
 	}
+
 	#footer-widgets #custom_html-11 a {
 		display: inline-block;
 		width: 150px;
+		margin-left: 0;
 	}
 }
 
