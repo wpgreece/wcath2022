@@ -2344,7 +2344,7 @@ blockquote:before {
     font-size: 80px;
     position: absolute;
     left: -10px;
-    top: -10px;    
+    top: -10px;
 }
 
 /*CONSENT COOKIE*/
@@ -2358,7 +2358,7 @@ blockquote:before {
     display: none;
 }
 
-/*CUSTOMIZER CSS*/
+/*CUSTOMIZER CSS test*/
 .wp-block-quote {
 	width: auto;
 	padding: 3rem 5rem !important;
@@ -2406,7 +2406,7 @@ h3.wordcamp-block__item-title.wordcamp-organizers__title {
 		grid-column-start: 1;
 		grid-column-end: 3;
 	}
-	
+
 	.site-header .site-title {
 		width: 230px;
 		height: 270px;
