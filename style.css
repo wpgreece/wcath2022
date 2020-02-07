@@ -1652,7 +1652,7 @@ p#subscribe-email{
 	background: url(https://2020.athens.wordcamp.org/files/2020/02/logo_site_info.png) 50% 0 no-repeat;
 	color: rgba(255,255,255,1);
 	display: block;
-	padding-top: 25px;
+	padding-top: 16px;
 	padding-left: 183px;
 	font-size: 15px;
 	background-size: 178px;
@@ -1674,8 +1674,8 @@ p#subscribe-email{
 	padding: .5rem;
 	position: relative;
 	text-decoration: none;
-	top: -61px;
-	left: 95px;
+	top: -53px;
+	left: 122px;
 	z-index: 900;
 	-webkit-border-radius: 3px;
 	-moz-border-radius: 3px;
