@@ -1704,6 +1704,11 @@ p#subscribe-email{
 }
 
 @media screen and (max-width: 425px) {
+	.site-info {
+		padding-left: 0;
+		padding-right: 0;
+	}
+
 	.site-info .site-info-network {
 		margin-top: 20px;
 		top: unset;
