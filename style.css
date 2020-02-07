@@ -174,7 +174,6 @@ hr {
 	background-size: 100%;
 }
 
-.post::after,
 hr.wp-block-separator {
 	margin-top: 100px;
 	margin-bottom: 100px;
@@ -1284,12 +1283,14 @@ textarea:focus{
 
 .post::after{
 	display: block;
-	position: absolute;
+	position: relative;
 	content: "";
 	background-image: url('https://2020.athens.wordcamp.org/files/2020/01/Waves-Seperator-01.png');
 	width: 150px;
 	height: 15px;
 	margin: 0 auto;
+	margin-top: 100px;
+	margin-bottom: 80px;
 	left: 0;
 	right: 0;
 	background-repeat: no-repeat;
