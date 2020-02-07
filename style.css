@@ -2412,7 +2412,7 @@ h3.wordcamp-block__item-title.wordcamp-organizers__title {
 	}
 
 	.site-header {
-		height: 450px;
+		height: 450px !important;
 	}
 
 	.site-header .site-title {
