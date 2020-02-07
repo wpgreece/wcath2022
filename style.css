@@ -1653,7 +1653,7 @@ p#subscribe-email{
 	color: rgba(255,255,255,1);
 	display: block;
 	padding-top: 31px;
-	padding-left: 176px;
+	padding-left: 190px;
 	font-size: 15px;
 	background-size: 178px;
 	background-position: left;
@@ -1674,7 +1674,7 @@ p#subscribe-email{
 	position: relative;
 	text-decoration: none;
 	top: -55px;
-	left: 100px;
+	left: 95px;
 	z-index: 900;
 	-webkit-border-radius: 3px;
 	-moz-border-radius: 3px;
