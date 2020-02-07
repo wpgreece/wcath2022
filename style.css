@@ -1619,6 +1619,8 @@ p#subscribe-email{
 	}
 }
 
+
+
 /* 8.2 Title of Register Section
 ======================================*/
 #text-2{
@@ -1645,8 +1647,9 @@ p#subscribe-email{
 	padding:4rem;
 	text-align:center
 }
+
 .site-info .site-info-generator {
-	background:url('https://2017.athens.wordcamp.org/files/2017/05/logoWordCampAthens2017-top.png') 50% 0 no-repeat;
+	background:url('https://2020.athens.wordcamp.org/files/2020/02/logo_site_info.png') 50% 0 no-repeat;
 	color:rgba(255, 255, 255, 1);;
 	display:block;
 	padding-top:9rem;
@@ -1659,7 +1662,7 @@ p#subscribe-email{
 	-moz-box-sizing: border-box;
 	-webkit-box-sizing: border-box;
 	box-sizing: border-box;
-    color: #448ef6;
+	color: #448ef6;
 	cursor: pointer;
 	font-size: .75em;
 	padding:.5rem;
