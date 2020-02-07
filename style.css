@@ -181,7 +181,8 @@ hr.wp-block-separator {
 
 span.engilsh-text-anchor {
 	visibility: hidden;
-	height: 1px;
+	height: 0px;
+	display: inline-block;
 }
 
   /**
