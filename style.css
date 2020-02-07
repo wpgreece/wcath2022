@@ -1703,6 +1703,8 @@ p#subscribe-email{
 	display: inline-block;
 }
 
+@media
+
 /*======================================
 	10. Social Media Links
 ---------------------------------------*/
@@ -2271,14 +2273,6 @@ td,th{
 	.tix-attendee-form td.tix-right{
 		width: 60%;
 		float: left;
-	}
-}
-
-/*  13.5 Footer
-======================================*/
-@media screen and (max-width: 1023px) {
-	.site-info .site-info-generator {
-		padding-top:9.375rem;
 	}
 }
 
