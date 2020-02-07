@@ -1705,10 +1705,13 @@ p#subscribe-email{
 
 @media screen and (max-width: 425px) {
 	.site-info {
-		padding-left: 0;
-		padding-right: 0;
+		padding-left: 10px;
+		padding-right: 10px;
 	}
 
+	.site-info .site-info-generator {
+		padding-top: 35px;
+	}
 	.site-info .site-info-network {
 		margin-top: 20px;
 		top: unset;
