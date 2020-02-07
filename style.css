@@ -1607,6 +1607,10 @@ p#subscribe-email{
 		font-size: 1.3em;
 		margin-bottom: 10px;
 	}
+	#footer-widgets #custom_html-11 a {
+		display: inline-block;
+		width: 150px;
+	}
 }
 
 /* 8.2 Title of Register Section
