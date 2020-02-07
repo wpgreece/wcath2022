@@ -718,8 +718,8 @@ body.page-id-148 #primary {
 button, [type="button"], [type="submit"],
 a.btn.primary-btn,
 input[type='submit'] {
-	background-color:rgba(68, 142, 246, 1);
-	color:rgba(255, 255, 255, 1);
+	background-color: #1ed6bb;
+	color: #000000;
 	cursor:pointer;
 	font-size:1.125rem;
 	font-weight:700;
