@@ -2360,6 +2360,11 @@ td,th{
 	position: relative !important;
 }
 
+@media ( max-width: 425px ) {
+	.widget_eu_cookie_law_widget {
+		width: 297px !important;
+	}
+}
 
 .wpgc-tba {
 	-webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
