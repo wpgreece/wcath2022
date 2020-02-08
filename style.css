@@ -1671,7 +1671,7 @@ p#subscribe-email{
 	transform:scale(1.05);
 }
 
-@media ( max-width: 425 px ) {
+@media ( max-width: 425px ) {
 	#footer-widget-2 {
 		grid-template-columns: repeat(2, 1fr);
 	}
