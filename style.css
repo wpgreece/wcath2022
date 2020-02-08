@@ -1572,11 +1572,9 @@ p#subscribe-email{
 /* 8.1 Background Register Section
 =========================================*/
 
-#footer-widget-1 {
-	-moz-box-sizing: border-box;
-	-webkit-box-sizing: border-box;
-	box-sizing: border-box;
-	padding: 1rem;
+.footer-widgets-block {
+	padding: 0 1rem;
+	margin-bottom: 50px;
 }
 
 #footer-widgets {
@@ -1601,10 +1599,6 @@ p#subscribe-email{
 }
 
 /* Reservation Custom HTML Widget */
-#footer-widgets #custom_html-11 {
-	margin-top: 80px;
-	margin-bottom: 50px;
-}
 
 #footer-widgets #custom_html-11 h2 {
 	font-family: 'Ubuntu', sans-serif;
