@@ -1244,7 +1244,6 @@ textarea:focus{
 	-moz-box-shadow:0 0 8px rgba(126,99,88,0.3);
 	-webkit-box-shadow:0 0 8px rgba(126,99,88,0.3);
 	box-shadow:0 0 8px rgba(126,99,88,0.3);
-	cursor:pointer;
 	display:block;
 	margin:0 auto;
 	 -moz-transition: all 0.3s ease;
@@ -1256,7 +1255,7 @@ transition: all 0.3s ease;
 	border-radius: 3px;
 }
 
-#after-header-widgets .textwidget img:hover {
+#after-header-widgets .textwidget a img:hover {
 	-moz-transform:scale(1.05);
 	-ms-transform:scale(1.05);
 	-webkit-transform:scale(1.05);
