@@ -2561,6 +2561,10 @@ h3.wordcamp-block__item-title.wordcamp-organizers__title {
 	background: #e7e7e7;
 }
 
+.page-id-973 #main {
+	margin: 0;
+}
+
 .page-id-973 #main,
 .page-id-973 #primary {
 	width: 100%;
@@ -2626,13 +2630,13 @@ h3.wordcamp-block__item-title.wordcamp-organizers__title {
 }
 
 .page-id-973 h2.front-latest-posts-header:after {
-    content: " ";
-    background: url(https://2020.athens.wordcamp.org/files/2020/02/wave_separator_white.png);
-    display: block;
-    width: 751px;
-    height: 10px;
-    position: absolute;
-    margin-left: -540px;
+	content: " ";
+	background: url(https://2020.athens.wordcamp.org/files/2020/02/wave_separator_white.png);
+	display: block;
+	width: 751px;
+	height: 10px;
+	position: absolute;
+	margin-left: -540px;
 }
 
 .page-id-973 ul.front-latest-posts {
@@ -2724,13 +2728,13 @@ h3.wordcamp-block__item-title.wordcamp-organizers__title {
 }
 
 .page-id-973 h2.front-info-header:after {
-    content: " ";
-    background: url(https://2020.athens.wordcamp.org/files/2020/02/wave_separator_white.png);
-    display: block;
-    width: 751px;
-    height: 10px;
-    position: absolute;
-    margin-left: -415px;
+	content: " ";
+	background: url(https://2020.athens.wordcamp.org/files/2020/02/wave_separator_white.png);
+	display: block;
+	width: 751px;
+	height: 10px;
+	position: absolute;
+	margin-left: -415px;
 }
 
 .page-id-973 .front-info {
@@ -2794,6 +2798,7 @@ h3.wordcamp-block__item-title.wordcamp-organizers__title {
 	color: #fff;
 	padding: 40px;
 	margin-bottom: 0;
+	margin-top: 80px;
 }
 
 /* /Revamp front-page styles */
