@@ -2791,7 +2791,7 @@ h3.wordcamp-block__item-title.wordcamp-organizers__title {
 }
 
 /* Newsletter */
-.page-id-973 .entry-content .wp-block-columns:nth-last-child(2) {
+.page-id-973 .entry-content .wp-block-columns:last-child {
 	background: #1233a6;
 	color: #fff;
 	padding: 40px 80px 40px 80px;
@@ -2799,25 +2799,25 @@ h3.wordcamp-block__item-title.wordcamp-organizers__title {
 	margin-top: 80px;
 }
 
-.page-id-973 .entry-content .wp-block-columns:nth-last-child(2) .jetpack_subscription_widget form {
+.page-id-973 .entry-content  .wp-block-columns:last-child .jetpack_subscription_widget form {
 	display: grid;
 	grid-template-columns: 1fr 200px;
 }
 
-.page-id-973 .entry-content .wp-block-columns:nth-last-child(2) .jetpack_subscription_widget button,
-.page-id-973 .entry-content .wp-block-columns:nth-last-child(2) .jetpack_subscription_widget #subscribe-submit {
+.page-id-973 .entry-content  .wp-block-columns:last-child .jetpack_subscription_widget button,
+.page-id-973 .entry-content  .wp-block-columns:last-child .jetpack_subscription_widget #subscribe-submit {
 	margin: 0;
 }
 
-.page-id-973 .entry-content .wp-block-columns:nth-last-child(2) .jetpack_subscription_widget input,
-.page-id-973 .entry-content .wp-block-columns:nth-last-child(2) .jetpack_subscription_widget button {
+.page-id-973 .entry-content  .wp-block-columns:last-child .jetpack_subscription_widget input,
+.page-id-973 .entry-content  .wp-block-columns:last-child .jetpack_subscription_widget button {
 	box-shadow: unset;
 	border-radius: 0 !important;
 	height: 60px;
 }
 
 @media ( max-width: 1024px ) {
-	.page-id-973 .entry-content .wp-block-columns:nth-last-child(2) .jetpack_subscription_widget form {
+	.page-id-973 .entry-content  .wp-block-columns:last-child .jetpack_subscription_widget form {
 		grid-template-columns: 1fr;
 	}
 }
