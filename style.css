@@ -2594,7 +2594,7 @@ h3.wordcamp-block__item-title.wordcamp-organizers__title {
 	width: calc(100vw - 40px);
 	margin: 0 auto;
 	background: #fff;
-	box-shadow: 6px 6px 5px 0 rgba(0,0,0,0.27);
+	box-shadow: 0 0 8px rgba(126,99,88,0.3);
 }
 
 /* Sponsors */
@@ -2744,7 +2744,7 @@ h3.wordcamp-block__item-title.wordcamp-organizers__title {
 
 .page-id-973 .front-info .box {
 	background: #fff;
-	box-shadow: 6px 6px 5px 0 rgba(0,0,0,0.27);
+	box-shadow: 0 0 8px rgba(126,99,88,0.3);
 }
 
 .page-id-973 .front-info .box .header {
