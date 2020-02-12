@@ -2792,6 +2792,10 @@ h3.wordcamp-block__item-title.wordcamp-organizers__title {
 	font-size: 1.2em;
 }
 
+.page-id-973 .front-info .box .header h3 {
+	margin-top: 0;
+}
+
 .page-id-973 .front-info .box .content {
 	height: 300px;
 }
