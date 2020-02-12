@@ -2712,10 +2712,6 @@ h3.wordcamp-block__item-title.wordcamp-organizers__title {
 	padding: 15px;
 	float: left;
 	box-shadow: -10px -10px 0 0 rgba(14,99,216,1);
-	/* grid-template-columns: 80px 1fr;
-	grid-template-rows: auto 20px;
-	display: grid;
-	grid-column-gap: 20px; */
 }
 
 .page-id-973 ul.front-latest-posts li a {
@@ -2725,16 +2721,15 @@ h3.wordcamp-block__item-title.wordcamp-organizers__title {
 }
 
 .page-id-973 ul.front-latest-posts li .wp-block-latest-posts__featured-image {
-	/* grid-row-start: 1;
-	grid-row-end: 3; */
 	float: left;
 	margin-right: 20px;
 }
 
-@media (max-width: 768px) {
-	.page-id-973 ul.front-latest-posts {
-		grid-template-columns: 1fr;
-		grid-row-gap: 40px;
+@media (max-width: 425px) {
+	.page-id-973 ul.front-latest-posts li .wp-block-latest-posts__featured-image {
+		float: unset;
+		margin-left: 0;
+		margin-bottom: 20px;
 	}
 }
 
