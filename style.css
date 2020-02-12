@@ -1247,10 +1247,10 @@ textarea:focus{
 	display:block;
 	margin:0 auto;
 	 -moz-transition: all 0.3s ease;
--o-transition: all 0.3s ease;
--webkit-transition: all 0.3s ease;
-transition: all 0.3s ease;
--webkit-border-radius: 3px;
+	-o-transition: all 0.3s ease;
+	-webkit-transition: all 0.3s ease;
+	transition: all 0.3s ease;
+	-webkit-border-radius: 3px;
 	-moz-border-radius: 3px;
 	border-radius: 3px;
 }
@@ -2807,6 +2807,20 @@ h3.wordcamp-block__item-title.wordcamp-organizers__title {
 	grid-gap: 10px;
 	margin-bottom: 5px;
 	align-items: center;
+}
+
+.page-id-973 .front-info a {
+	 -moz-transition: all 0.3s ease;
+	-o-transition: all 0.3s ease;
+	-webkit-transition: all 0.3s ease;
+	transition: all 0.3s ease;
+}
+
+.page-id-973 .front-info a:hover {
+	-moz-transform:scale(1.05);
+	-ms-transform:scale(1.05);
+	-webkit-transform:scale(1.05);
+	transform:scale(1.05);
 }
 
 .page-id-973 .front-info .venue .content {
