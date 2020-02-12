@@ -2712,6 +2712,16 @@ h3.wordcamp-block__item-title.wordcamp-organizers__title {
 	padding: 15px;
 	float: left;
 	box-shadow: -10px -10px 0 0 rgba(14,99,216,1);
+	grid-template-columns: 80px 1fr;
+	grid-template-rows: 60px 20px;
+	height: 111px;
+	display: grid;
+	grid-column-gap: 20px;
+}
+
+.page-id-973 ul.front-latest-posts li .wp-block-latest-posts__featured-image {
+	grid-row-start: 1;
+	grid-row-end: 3;
 }
 
 @media (max-width: 768px) {
