@@ -2478,11 +2478,11 @@ blockquote:before {
 
 /* Gallery Slideshow Block */
 .wp-block-jetpack-slideshow_swiper-wrapper {
-	max-height: 400px !important;
+	max-height: 450px !important;
 }
 
 .wp-block-jetpack-slideshow .wp-block-jetpack-slideshow_slide {
-	background: #fff;
+	background: #fff !important;
 }
 
 /* CUSTOMIZER CSS */
