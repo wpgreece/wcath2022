@@ -2511,6 +2511,7 @@ blockquote:before {
 @media ( max-width: 425px ) {
 	#content .site-navigation.post-navigation {
 		grid-template-columns: 1fr;
+		grid-gap: 40px;
 	}
 }
 
