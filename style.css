@@ -1032,7 +1032,7 @@ textarea:focus{
 	}
 }
 
-.current-menu-item>a, .sub-menu li.current-menu-itema {
+.current-menu-item>a, .sub-menu li.current-menu-item a {
 	color: rgba(255, 255, 255, 1);
 	background-color: rgba(19, 51, 166, 1);
 }
