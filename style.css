@@ -1325,7 +1325,6 @@ a.more-link {
 }
 
 .entry-title + .entry-meta {
-	font-family: 'Ubuntu', sans-serif;
 	color:rgba(0,0,0,.7);
 	font-size:0.889em;
 	line-height: 1.5625em;
@@ -1554,7 +1553,6 @@ a.more-link {
 }
 
 .widget .widget-title {
-	font-family: 'Ubuntu', sans-serif;
 	font-size:1.125em;
 	font-weight:700;
 	margin:0 0 0.625rem;
@@ -1609,7 +1607,6 @@ p#subscribe-email{
 /* Reservation Custom HTML Widget */
 
 #footer-widgets #custom_html-11 h2 {
-	font-family: 'Ubuntu', sans-serif;
 	text-transform: uppercase;
 	display: inline-block;
 	margin-top: 0;
@@ -1832,7 +1829,6 @@ li.share-email a.sd-button > span,
 li.share-jetpack-whatsapp a.sd-button > span {
 	border: none!important;
 	color: rgba(255,255,255,1)!important;
-	font-family: 'Open Sans', sans-serif;
 	font-weight: 300;
 	letter-spacing: 0;
 	text-transform: uppercase;
