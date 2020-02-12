@@ -1400,10 +1400,10 @@ a.more-link {
 }
 
 .entry-content blockquote {
-	margin:2.25rem 1rem
+	margin:2.25rem 0;
 }
 .comment-content blockquote {
-	margin:1.5rem .75rem
+	margin:1.5rem .75rem;
 }
 
 /* 5.4 Default Block Image
