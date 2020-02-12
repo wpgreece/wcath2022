@@ -2476,6 +2476,15 @@ blockquote:before {
 	display: none;
 }
 
+/* Gallery Slideshow Block */
+.wp-block-jetpack-slideshow_swiper-wrapper {
+	max-height: 400px !important;
+}
+
+.wp-block-jetpack-slideshow .wp-block-jetpack-slideshow_slide {
+	background: #fff;
+}
+
 /* CUSTOMIZER CSS */
 .site-title a {
 	color: rgba( 68,142,246,0 );
