@@ -2489,7 +2489,7 @@ blockquote:before {
 #content .site-navigation.post-navigation {
 	display: grid;
 	grid-template-columns: repeat(2,1fr);
-	grid-gap: 20px;
+	grid-gap: 40px;
 }
 
 #content .site-navigation.post-navigation a span {
@@ -2511,7 +2511,6 @@ blockquote:before {
 @media ( max-width: 425px ) {
 	#content .site-navigation.post-navigation {
 		grid-template-columns: 1fr;
-		grid-gap: 40px;
 	}
 }
 
