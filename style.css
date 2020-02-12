@@ -2496,7 +2496,13 @@ blockquote:before {
 	display: block;
 }
 
-#content .site-navigation.post-navigation a:nth-child(1) {
+#content .site-navigation.post-navigation .nav-previous a {
+	display: grid;
+	grid-template-columns: 20px 1fr;
+	grid-gap: 10px;
+}
+
+#content .site-navigation.post-navigation .nav-next a {
 	display: grid;
 	grid-template-columns: 1fr 20px;
 	grid-gap: 10px;
