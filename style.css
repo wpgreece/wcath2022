@@ -667,6 +667,16 @@ img {
 	display: none !important;
 }
 
+.logged-in.admin-bar .wpadminbar {
+	width: 36px;
+	overflow: hidden;
+	min-width: unset;
+}
+.logged-in.admin-bar .wpadminbar:hover {
+	width: 100%;
+	overflow: unset;
+}
+
 #custom_html-1 h1.widget-title,
 #custom_html-2 h1.widget-title,
 #custom_html-3 h1.widget-title,
