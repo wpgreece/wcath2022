@@ -2485,6 +2485,17 @@ blockquote:before {
 	background: #fff !important;
 }
 
+/* Prev/Next posts nav */
+#content .site-navigation.post-navigation {
+	display: grid;
+	grid-template-columns: repeat(2,1fr);
+	grid-gap: 20px;
+}
+
+#content .site-navigation.post-navigation a span {
+	display: block;
+}
+
 /* CUSTOMIZER CSS */
 .site-title a {
 	color: rgba( 68,142,246,0 );
