@@ -663,6 +663,10 @@ img {
 
 /* 2.2 General
 ======================================*/
+.edit-link {
+	display: none !important;
+}
+
 #custom_html-1 h1.widget-title,
 #custom_html-2 h1.widget-title,
 #custom_html-3 h1.widget-title,
