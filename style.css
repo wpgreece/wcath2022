@@ -2888,6 +2888,9 @@ h3.wordcamp-block__item-title.wordcamp-organizers__title {
 }
 
 @media ( max-width: 1024px ) {
+	.page-id-973 .entry-content .front-newsletter {
+		padding: 40px 50px;
+	}
 	.page-id-973 .entry-content  .front-newsletter .jetpack_subscription_widget form {
 		grid-template-columns: 1fr;
 	}
