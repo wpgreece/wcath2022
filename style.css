@@ -2725,15 +2725,18 @@ h3.wordcamp-block__item-title.wordcamp-organizers__title {
 	margin-right: 20px;
 }
 
+@media ( max-width: 768px ) {
+	.page-id-973 ul.front-latest-posts {
+		grid-template-columns: 1fr;
+		grid-row-gap: 40px;
+	}
+}
+
 @media (max-width: 425px) {
 	.page-id-973 ul.front-latest-posts li .wp-block-latest-posts__featured-image {
 		float: unset;
 		margin-left: 0;
 		margin-bottom: 20px;
-	}
-	.page-id-973 ul.front-latest-posts {
-		grid-template-columns: 1fr;
-		grid-row-gap: 40px;
 	}
 }
 
