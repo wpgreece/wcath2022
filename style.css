@@ -2808,15 +2808,17 @@ h3.wordcamp-block__item-title.wordcamp-organizers__title {
 	margin-bottom: 5px;
 	align-items: center;
 }
-
 .page-id-973 .front-info a {
+	text-decoration: none;
+}
+.page-id-973 .front-info a .box {
 	 -moz-transition: all 0.3s ease;
 	-o-transition: all 0.3s ease;
 	-webkit-transition: all 0.3s ease;
 	transition: all 0.3s ease;
 }
 
-.page-id-973 .front-info a:hover {
+.page-id-973 .front-info a .box:hover {
 	-moz-transform:scale(1.05);
 	-ms-transform:scale(1.05);
 	-webkit-transform:scale(1.05);
