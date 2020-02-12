@@ -2489,14 +2489,11 @@ blockquote:before {
 #content .site-navigation.post-navigation {
 	display: grid;
 	grid-template-columns: repeat(2,1fr);
+	grid-gap: 20px;
 }
 
 #content .site-navigation.post-navigation a span {
 	display: block;
-}
-
-#content .site-navigation.post-navigation .nav-previous {
-	border-right: 1px #1ed6bb solid;
 }
 
 #content .site-navigation.post-navigation .nav-previous a {
