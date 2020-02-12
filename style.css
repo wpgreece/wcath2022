@@ -2496,6 +2496,12 @@ blockquote:before {
 	display: block;
 }
 
+#content .site-navigation.post-navigation a:nth-child(1) {
+	display: grid;
+	grid-template-columns: 1fr 20px;
+	grid-gap: 10px;
+}
+
 /* CUSTOMIZER CSS */
 .site-title a {
 	color: rgba( 68,142,246,0 );
