@@ -2820,6 +2820,18 @@ h3.wordcamp-block__item-title.wordcamp-organizers__title {
 	background-position: center center;
 }
 
+.page-id-973 .front-info .venue .tickets {
+	display: flex;
+	justify-content: center;
+	text-align: center;
+	align-items: center;
+	color: #fff;
+	background: linear-gradient(rgba(18,51,166,0.8),rgba(18,51,166,0.8)), url('https://2020.athens.wordcamp.org/files/2020/01/wordcamp-athens-2019-29.jpg');
+	background-size: cover;
+	background-position: center center;
+}
+
+
 @media (max-width:768px) {
 	.page-id-973 .front-info {
 		grid-template-columns: 1fr;
