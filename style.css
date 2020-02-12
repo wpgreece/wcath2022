@@ -2718,6 +2718,12 @@ h3.wordcamp-block__item-title.wordcamp-organizers__title {
 	grid-column-gap: 20px; */
 }
 
+.page-id-973 ul.front-latest-posts li a {
+	font-weight: 600;
+	font-size: 23px;
+	font-family: 'Noto Serif', serif;
+}
+
 .page-id-973 ul.front-latest-posts li .wp-block-latest-posts__featured-image {
 	/* grid-row-start: 1;
 	grid-row-end: 3; */
