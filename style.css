@@ -2950,11 +2950,19 @@ h3.wordcamp-block__item-title.wordcamp-organizers__title {
 	max-width: 100%;
 }
 
+.page-id-341 #main .entry-header {
+	margin-bottom: 1rem;
+}
+
 .page-id-341 #main .entry-title,
 .page-id-341 #main .entry-subtitle {
 	text-align: center;
 	padding-left: 20px;
 	padding-right: 20px;
+}
+
+.page-id-341 #main .entry-subtitle {
+	margin-bottom: 80px;
 }
 
 .page-id-341 #main #content {
