@@ -2939,3 +2939,67 @@ h3.wordcamp-block__item-title.wordcamp-organizers__title {
 }
 
 /* /Revamp front-page styles */
+
+/* Revamp Sponsors page styles */
+.page-id-341 {
+	background: #e7e7e7;
+}
+.page-id-341 #main {
+	margin: 0;
+	max-width: 100%;
+}
+
+.page-id-341 #main .entry-title {
+	display: none;
+}
+
+.page-id-341 #main #content {
+	padding: 0;
+}
+
+.page-id-341 #main #secondary {
+	display: none;
+}
+
+.page-id-341 #main #primary {
+	width: 100%;
+}
+
+.page-id-341 #main h2.gold-heading,
+.page-id-341 #main h2.silver-heading {
+	text-align: center;
+	color: #fff;
+	padding-top: 80px;
+	padding-bottom: 80px;
+}
+.page-id-341 #main h2.gold-heading {
+background: linear-gradient(rgba(18,51,166,0.6),rgba(18,51,166,0.6)), url('https://2020.athens.wordcamp.org/files/2020/01/wordcamp-athens-2019-main-room.jpg');
+		background-size: cover;
+	background-position: center;
+	}
+
+.page-id-341 #main h2.silver-heading {
+background: linear-gradient(rgba(18,51,166,0.6),rgba(18,51,166,0.6)), url('https://2020.athens.wordcamp.org/files/2020/01/wordcamp-athens-2019-21.jpg');
+		background-size: cover;
+	background-position: center;
+	}
+
+.page-id-341 #main .has-layout-grid.wordcamp-sponsors {
+	padding: 40px;
+	grid-gap: 40px;
+}
+.page-id-341 #main .has-layout-grid.wordcamp-sponsors .wordcamp-post-list__post {
+background: #fff;
+    box-shadow: 0 0 8px rgba(126,99,88,0.3);
+	padding: 20px;
+}
+
+@media (max-width: 768px) {
+	.page-id-341 #main .has-layout-grid.wordcamp-sponsors {
+		padding: 20px;
+		grid-gap: 20px;
+		grid-template-columns: 1fr;
+	}
+}
+
+/* /Revamp Sponsors page styles */
