@@ -2988,6 +2988,11 @@ h3.wordcamp-block__item-title.wordcamp-organizers__title {
 	padding: 40px 150px;
 	grid-gap: 40px;
 }
+
+.page-id-431 #main .sharedaddy.sd-sharing-enabled {
+	padding: 40px 150px;
+}
+
 .page-id-341 #main .has-layout-grid.wordcamp-sponsors .wordcamp-post-list__post {
 	background: #fff;
 	box-shadow: 0 0 8px rgba(126,99,88,0.3);
@@ -2996,6 +3001,9 @@ h3.wordcamp-block__item-title.wordcamp-organizers__title {
 
 @media (max-width: 1024px) {
 	.page-id-341 #main .has-layout-grid.wordcamp-sponsors {
+		padding: 20px;
+	}
+	.page-id-431 #main .sharedaddy.sd-sharing-enabled {
 		padding: 20px;
 	}
 }
