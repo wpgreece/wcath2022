@@ -2503,10 +2503,17 @@ blockquote:before {
 	}
 }
 
+
+
 /* CUSTOMIZER CSS */
+div.wordcamp-sponsor .wordcamp-sponsors__logo {
+	margin-bottom: 15px;
+}
+
 article.type-post .entry-meta {
 	display: none;
 }
+
 td, th {
 	padding: 1rem .5rem;
 	font-size: 80%;
