@@ -2994,9 +2994,14 @@ h3.wordcamp-block__item-title.wordcamp-organizers__title {
 	padding: 20px;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1024px) {
 	.page-id-341 #main .has-layout-grid.wordcamp-sponsors {
 		padding: 20px;
+	}
+}
+
+@media (max-width: 768px) {
+	.page-id-341 #main .has-layout-grid.wordcamp-sponsors {
 		grid-gap: 20px;
 		grid-template-columns: 1fr;
 	}
