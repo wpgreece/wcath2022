@@ -2504,6 +2504,15 @@ blockquote:before {
 }
 
 /* CUSTOMIZER CSS */
+td, th {
+	padding: 1rem .5rem;
+	font-size: 80%;
+}
+
+tr td:first-child {
+	max-width: 150px;
+}
+
 .site-title a {
 	color: rgba( 68,142,246,0 );
 }
