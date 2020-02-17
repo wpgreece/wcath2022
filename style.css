@@ -299,7 +299,6 @@ iframe {
 button,
 input,
 optgroup,
-select,
 textarea {
 	vertical-align: middle;
 	color: inherit;
@@ -318,16 +317,6 @@ input[type='submit']{
 }
 
 /**
- * Remove all Style fro select elements. Does not quite work cross-browser
- */
-
-select {
-	-webkit-appearance: none;
-	appearance: none;
-	border-radius: 0;
-}
-
-/**
  * Show the overflow in IE.
  * 1. Show the overflow in Edge.
  */
@@ -336,17 +325,6 @@ button,
 input {
 	/* 1 */
 	overflow: visible;
-}
-
-/**
- * Remove the inheritance of text transform in Edge, Firefox, and IE.
- * 1. Remove the inheritance of text transform in Firefox.
- */
-
-button,
-select {
-	/* 1 */
-	text-transform: none;
 }
 
 /**
