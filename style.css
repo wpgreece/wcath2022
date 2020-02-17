@@ -2504,7 +2504,7 @@ blockquote:before {
 }
 
 /* CUSTOMIZER CSS */
-body.type-post .entry-meta {
+article.type-post .entry-meta {
 	display: none;
 }
 td, th {
