@@ -2504,6 +2504,9 @@ blockquote:before {
 }
 
 /* CUSTOMIZER CSS */
+body.type-post .entry-meta {
+	display: none;
+}
 td, th {
 	padding: 1rem .5rem;
 	font-size: 80%;
