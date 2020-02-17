@@ -2944,13 +2944,16 @@ h3.wordcamp-block__item-title.wordcamp-organizers__title {
 .page-id-341 {
 	background: #e7e7e7;
 }
+
 .page-id-341 #main {
 	margin: 0;
 	max-width: 100%;
 }
 
 .page-id-341 #main .entry-title {
-	display: none;
+	text-align: center;
+	padding-left: 20px;
+	padding-right: 20px;
 }
 
 .page-id-341 #main #content {
