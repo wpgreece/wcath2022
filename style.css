@@ -2972,17 +2972,20 @@ h3.wordcamp-block__item-title.wordcamp-organizers__title {
 	padding-top: 80px;
 	padding-bottom: 80px;
 }
+
 .page-id-341 #main h2.gold-heading {
 	background: linear-gradient(rgba(18,51,166,0.6),rgba(18,51,166,0.6)), url('https://2020.athens.wordcamp.org/files/2020/01/wordcamp-athens-2019-main-room.jpg');
 	background-size: cover;
 	background-position: center;
-	}
+	background-attachment: fixed;
+}
 
 .page-id-341 #main h2.silver-heading {
 	background: linear-gradient(rgba(18,51,166,0.6),rgba(18,51,166,0.6)), url('https://2020.athens.wordcamp.org/files/2020/01/wordcamp-athens-2019-21.jpg');
 	background-size: cover;
 	background-position: center;
-	}
+	background-attachment: fixed;
+}
 
 .page-id-341 #main .has-layout-grid.wordcamp-sponsors {
 	padding: 40px 150px;
