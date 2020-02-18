@@ -1603,7 +1603,21 @@ body.home #footer-widget-3 {
 	display: none !important;
 }
 
-/* Reservation Custom HTML Widget */
+/* Sponsors Footer Widget */
+#footer-widget-1 .sponsors {
+	display: grid;
+	grid-template-columns: repeat( 2, 1fr );
+	justify-content: center;
+	grid-gap: 40px;
+	align-items: center;
+	width: 100%;
+}
+
+#footer-widget-1 .sponsors img {
+	max-width: 250px;
+}
+
+/* Reservation Footer Widget */
 
 #footer-widget-4 #custom_html-11 h2 {
 	text-transform: uppercase;
@@ -1643,7 +1657,7 @@ body.home #footer-widget-3 {
 	}
 }
 
-/* Icons widget */
+/* Icons Footer widget */
 #footer-widget-5 {
 	display: grid;
 	grid-template-columns: repeat(4, 1fr);
