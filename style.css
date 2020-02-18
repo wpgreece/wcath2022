@@ -1611,11 +1611,11 @@ body.home #footer-widget-3 {
 	color: #fff;
 	padding: 50px;
 	background: #1233a6;
+	margin-bottom: 0;
 }
 
 #footer-widget-1 h2:first-child {
 	margin-top: 0;
-	margin-bottom: 0;
 }
 
 #footer-widget-1 .sponsors {
