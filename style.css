@@ -1596,6 +1596,13 @@ p#subscribe-email{
 	border-bottom: 0;
 }
 
+/** Hide first 3 widget areas from front page */
+body.home #footer-widget-1,
+body.home #footer-widget-2,
+body.home #footer-widget-3 {
+	display: none !important;
+}
+
 /* Reservation Custom HTML Widget */
 
 #footer-widget-4 #custom_html-11 h2 {
