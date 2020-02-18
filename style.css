@@ -1637,7 +1637,7 @@ p#subscribe-email{
 }
 
 /* Icons widget */
-#footer-widget-2 {
+#footer-widget-4 {
 	display: grid;
 	grid-template-columns: repeat(4, 1fr);
 	grid-gap: 15px;
@@ -1647,11 +1647,11 @@ p#subscribe-email{
 	margin: 0 auto;
 }
 
-#footer-widget-2 .widget-title {
+#footer-widget-4 .widget-title {
 	display: none;
 }
 
-#footer-widget-2 img {
+#footer-widget-4 img {
 	border-radius: 3px;
 	box-shadow: 0 0 8px rgba(126,99,88,0.3);
 	-moz-transition: all 0.3s ease;
@@ -1660,7 +1660,7 @@ p#subscribe-email{
 	transition: all 0.3s ease;
 }
 
-#footer-widget-2 a img:hover {
+#footer-widget-4 a img:hover {
 	-moz-transform:scale(1.05);
 	-ms-transform:scale(1.05);
 	-webkit-transform:scale(1.05);
@@ -1668,7 +1668,7 @@ p#subscribe-email{
 }
 
 @media ( max-width: 425px ) {
-	#footer-widget-2 {
+	#footer-widget-4 {
 		grid-template-columns: repeat(2, 1fr);
 	}
 }
