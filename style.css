@@ -2342,6 +2342,12 @@ p.contact-submit input[type="submit"] {
 	margin: auto;
 }
 
+@media ( max-width: 768px ) {
+	#primary {
+		padding: 80px 40px;
+	}
+}
+
 /* 13.2 Home Title
 ======================================*/
 @media screen and (max-width: 480px){
