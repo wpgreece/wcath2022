@@ -1604,6 +1604,15 @@ body.home #footer-widget-3 {
 }
 
 /* Sponsors Footer Widget */
+#footer-widget-1 {
+	color: #fff;
+	padding: 50px;
+	background: linear-gradient(rgba(18,51,166,0.6),rgba(18,51,166,0.6)), url(https://2020.athens.wordcamp.org/files/2020/01/wordcamp-athens-2019-main-room.jpg);
+	background-attachment: fixed;
+	background-size: cover;
+	background-position: bottom center;
+}
+
 #footer-widget-1 .sponsors {
 	display: grid;
 	grid-template-columns: repeat( 2, 1fr );
