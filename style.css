@@ -1419,7 +1419,8 @@ a.more-link {
 .comments-area {
 	border-top:2px solid rgba(19, 51, 166, 1);
 	margin-bottom:1.6875rem;
-	padding:1rem
+	padding:1rem;
+	display: none !important;
 }
 
 .comment-subscription-form .subscribe-label{
