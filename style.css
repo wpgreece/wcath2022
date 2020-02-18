@@ -2643,6 +2643,12 @@ blockquote:before {
 	font-size: .9em;
 }
 
+@media( max-width: 768px ) {
+	.menu-item a {
+		font-size: .7em;
+	}
+}
+
 @media (min-width:48em) {
 	.menu-item a {
 		padding: .75rem;
