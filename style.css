@@ -1597,6 +1597,9 @@ p#subscribe-email{
 }
 
 /** Hide first 3 widget areas from front page */
+body:not(.home) #footer-widgets {
+	padding-top: 0;
+}
 body.home #footer-widget-1,
 body.home #footer-widget-2,
 body.home #footer-widget-3 {
