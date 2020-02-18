@@ -2763,6 +2763,10 @@ h3.wordcamp-block__item-title.wordcamp-organizers__title {
 	padding: 0;
 }
 
+.page-id-973 #primary {
+	background: transparent;
+}
+
 .page-id-973 #content {
 	padding: 0;
 }
@@ -3127,6 +3131,7 @@ h3.wordcamp-block__item-title.wordcamp-organizers__title {
 .page-id-341 #main #primary {
 	width: 100%;
 	padding: 0;
+	background: transparent;
 }
 
 .page-id-341 #main h2.gold-heading,
