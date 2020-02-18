@@ -2288,6 +2288,10 @@ p.contact-submit input[type="submit"] {
 	max-width: 900px;
 }
 
+#secondary.widget-area {
+	display: none !important;
+}
+
 #text-16 a img{
 	max-height: 200px;
 	display: flex;
