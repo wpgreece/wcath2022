@@ -1611,10 +1611,12 @@ body.home #footer-widget-3 {
 	grid-gap: 40px;
 	align-items: center;
 	width: 100%;
+	max-width: 700px;
 }
 
 #footer-widget-1 .sponsors img {
 	max-width: 250px;
+	margin: 0 auto;
 }
 
 /* Reservation Footer Widget */
