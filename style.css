@@ -570,7 +570,7 @@ template {
 	/* 2.1 Typography
 =========================================== */
 body {
-	background:rgba(255, 255, 255, 1);
+	background: #fbfbfb;
 	color:rgba(0,0,0,.8);
 	font-family: 'Open Sans', sans-serif;
 	font-size:1.125em;
@@ -1305,6 +1305,9 @@ a.more-link {
 
 /* 4.4 Title
 ======================================*/
+.entry-title {
+	margin-top: 0;
+}
 
 .entry-title a {
 	color:rgba(14, 99, 216, 1);
@@ -2324,7 +2327,9 @@ p.contact-submit input[type="submit"] {
 	float: unset;
 	margin: 0 auto;
 	width: 100%;
-	max-width: 900px;
+	max-width: 1024px;
+	padding: 80px;
+	background: #fff;
 }
 
 #secondary.widget-area {
