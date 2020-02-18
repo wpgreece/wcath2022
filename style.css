@@ -1612,6 +1612,7 @@ body.home #footer-widget-3 {
 	align-items: center;
 	width: 100%;
 	max-width: 700px;
+	margin: 0 auto;
 }
 
 #footer-widget-1 .sponsors img {
