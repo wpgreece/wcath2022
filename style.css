@@ -1693,6 +1693,45 @@ body.home #footer-widget-3 {
 	}
 }
 
+/* Newsletter Footer Widget */
+#footer-widget-3 {
+	color: #fff;
+	padding: 50px;
+	background: #1233a6;
+	margin-bottom: 0;
+    text-align: center;
+}
+
+#footer-widget-3 h1 {
+	line-height: 1;
+	color: #fff;
+	font-size: 1.5556em;
+	font-weight: 700;
+	font-family: 'Noto Serif', serif;
+	text-transform: unset;
+}
+
+#footer-widget-3 aside {
+	max-width: 700px;
+	margin: 0 auto;
+}
+
+#footer-widget-3 #subscribe-submit {
+	margin-bottom: 0;
+}
+
+#footer-widget-3 aside #subscribe-field-blog_subscription-2,
+#footer-widget-3 aside button {
+	box-shadow: unset;
+	border-radius: 0 !important;
+	height: 60px;
+	max-width: 400px;
+}
+
+#footer-widget-3 aside button {
+	margin-bottom: 0;
+}
+
 /* Reservation Footer Widget */
 
 #footer-widget-4 #custom_html-11 h2 {
