@@ -1647,6 +1647,10 @@ body.home #footer-widget-3 {
 	text-align: center;
 }
 
+#footer-widget-2 h2 {
+	margin-top: 0;
+}
+
 #footer-widget-2 .social-icons img,
 #footer-widget-2 .social-links img {
 	max-width: 30px;
