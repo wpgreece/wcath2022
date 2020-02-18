@@ -2549,6 +2549,10 @@ blockquote:before {
 
 
 /* CUSTOMIZER CSS */
+.wp-block-buttons,
+.wp-block-calendar {
+	margin-bottom: 1.5em;
+}
 div.wordcamp-sponsor .wordcamp-sponsors__logo {
 	margin-bottom: 15px;
 }
