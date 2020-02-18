@@ -2696,7 +2696,7 @@ h3.wordcamp-block__item-title.wordcamp-organizers__title {
 .page-id-973 #main,
 .page-id-973 #primary {
 	width: 100%;
-	max-width: 100%;
+	max-width: unset;
 }
 
 .page-id-973 #content {
@@ -3024,6 +3024,10 @@ h3.wordcamp-block__item-title.wordcamp-organizers__title {
 /* /Revamp front-page styles */
 
 /* Revamp Sponsors page styles */
+.page-id-341 #primary {
+	max-width:unset;
+}
+
 .page-id-341 {
 	background: #FBFBFB;
 }
