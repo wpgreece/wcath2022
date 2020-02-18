@@ -1613,6 +1613,10 @@ body.home #footer-widget-3 {
 	background: #1233a6;
 }
 
+#footer-widget-1 h2:first-child {
+	margin-top: 0;
+}
+
 #footer-widget-1 .sponsors {
 	display: grid;
 	grid-template-columns: repeat( 2, 1fr );
