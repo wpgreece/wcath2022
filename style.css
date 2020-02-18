@@ -1676,6 +1676,12 @@ body.home #footer-widget-3 {
 	text-align: center;
 }
 
+@media ( max-width: 425px ) {
+	#footer-widget-2 .social-links {
+		grid-template-columns: 1fr;
+		grid-gap: 40px;
+	}
+}
 
 /* Reservation Footer Widget */
 
