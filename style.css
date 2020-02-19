@@ -2720,8 +2720,18 @@ tr td:first-child {
 	padding: 1rem;
 }
 
-.wp-block-button__link {
-	background-color: rgba(19,51,166,1);
+#main .wp-block-button__link {
+	background-color: #1ed6bb;
+	color: #000000 !important;
+	transition: all .3s ease;
+	text-decoration: none;
+	font-weight: 600;
+	border-radius: 3px;
+}
+
+#main .wp-block-button__link:hover {
+	background: rgba(14,99,216,1);
+	color: #fff !important;
 }
 
 #custom_html-10 a {
