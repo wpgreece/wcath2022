@@ -964,6 +964,7 @@ textarea:focus {
 		display: inline-block;
 		line-height: 1.33333em;
 		text-align: center;
+		height: 45px;
 	}
 }
 
