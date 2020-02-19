@@ -949,7 +949,7 @@ textarea:focus{
 	}
 }
 
-@media (max-width:37.500em) {
+@media (max-width:37.5em) {
 	.menu {
 			display: none;
 			position: absolute;
@@ -975,7 +975,7 @@ textarea:focus{
 	text-transform: uppercase
 }
 
-@media (min-width:48em) {
+@media (min-width:37.5em) {
 	.menu-item {
 			display: inline-block;
 			line-height: 1.33333em;
