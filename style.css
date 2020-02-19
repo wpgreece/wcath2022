@@ -949,7 +949,7 @@ textarea:focus{
 	}
 }
 
-@media (max-width:47.9375em) {
+@media (max-width:37.500em) {
 	.menu {
 			display: none;
 			position: absolute;
@@ -2642,12 +2642,6 @@ blockquote:before {
 .menu-item {
 	font-size: .9em;
 }
-
-/* @media( max-width: 768px ) {
-	.menu-item a {
-		padding: .6em !important;
-	}
-} */
 
 @media (min-width:48em) {
 	.menu-item a {
