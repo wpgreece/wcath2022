@@ -875,7 +875,7 @@ textarea:focus {
 	border-bottom-color: rgba(19,51,166,1);
 }
 
-@media (min-width:48em) {
+@media (min-width:37.5em) {
 	.menu-toggle {
 		display: none;
 	}
