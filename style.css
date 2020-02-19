@@ -1005,7 +1005,7 @@ textarea:focus {
 	display: none;
 }
 
-@media (min-width:48em) {
+@media (min-width:37.5em) {
 	.menu-item-has-children {
 		background-color: transparent;
 	}
