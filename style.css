@@ -2675,12 +2675,6 @@ blockquote:before {
 	}
 }
 
-@media (min-width:62em) {
-	.menu-item a {
-		padding: 1rem;
-	}
-}
-
 .wp-block-buttons,
 .wp-block-calendar {
 	margin-bottom: 1.5em;
