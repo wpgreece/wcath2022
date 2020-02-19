@@ -1062,7 +1062,7 @@ textarea:focus {
 	font-weight: 400;
 }
 
-@media (max-width:47.9375em) {
+@media (max-width:37.5em) {
 	.sub-menu a {
 		padding-left: 2.5rem;
 	}
@@ -1084,7 +1084,7 @@ textarea:focus {
 	}
 }
 
-@media (min-width:48em) {
+@media (min-width:37.5em) {
 	.sub-menu {
 		position: absolute;
 		top: 100%;
