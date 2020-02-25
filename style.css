@@ -547,7 +547,7 @@ body {
 	background: #f3f3f3;
 	color: rgba(0,0,0,.8);
 	font-family: 'Open Sans', sans-serif;
-	font-size: 1.125em;
+	font-size: 18px;
 	line-height: 1.5;
 }
 
@@ -2338,7 +2338,7 @@ p.contact-submit input[type="submit"] {
 	margin: 0 auto;
 	width: 100%;
 	max-width: 1024px;
-	padding: 80px;
+	padding: 90px 120px;
 	background: #fff;
 }
 
@@ -2759,6 +2759,15 @@ h3.wordcamp-block__item-title.wordcamp-organizers__title {
 	grid-column-end: 3;
 }
 
+.blog .sharedaddy {
+	display: none;
+}
+#english-link {
+	background: #1ED6BB5E;
+	padding: .5em .9em;
+	font-size: 85%;
+}
+
 @media (max-width: 425px) {
 	.wordcamp-organizers .wordcamp-image__avatar-container,
 				.wordcamp-organizers .wordcamp-organizers__content {
@@ -2867,6 +2876,14 @@ h3.wordcamp-block__item-title.wordcamp-organizers__title {
 .page-id-973 .front-silver-sponsor-images {
 	max-width: 750px;
 	margin: 0 auto;
+}
+
+.page-id-973 .front-gold-sponsor-images img {
+	max-width: 250px;
+}
+
+.page-id-973 .front-silver-sponsor-images img {
+	max-width: 200px;
 }
 
 /* Latest Posts */
