@@ -3138,6 +3138,9 @@ h3.wordcamp-block__item-title.wordcamp-organizers__title {
 	margin-bottom: 0;
 	margin-top: 80px;
 }
+#subscribe-submit > button {
+    margin-top: 0px!important;
+}
 
 .page-id-973 .entry-content  .front-newsletter .jetpack_subscription_widget form {
 	display: grid;
