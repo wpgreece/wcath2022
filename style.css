@@ -2816,7 +2816,11 @@ h3.wordcamp-block__item-title.wordcamp-organizers__title {
 	max-width: unset;
 	padding: 0;
 }
-
+.page-id-973 .big-image-front {
+    width: 20vw;
+    height: auto;
+    margin: 0 auto;
+}
 .page-id-973 #primary {
 	background: transparent;
 }
