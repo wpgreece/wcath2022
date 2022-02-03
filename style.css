@@ -2901,17 +2901,12 @@ h3.wordcamp-block__item-title.wordcamp-organizers__title {
 	position: relative;
 }
 .featured-btn {
-	background-color: #1ed6bb;
-	color: #000000 !important;
-	transition: all .3s ease;
-	text-decoration: none;
-	font-weight: 600;
-	border-radius: 3px;
-	width: 20%;
 	top: -2.7rem;
 	position: relative;
 }
-
+div.wp-block-button.has-custom-width.wp-block-button__width-100.featured-btn a.wp-block-button__link {
+	width: 20%;
+}
 /* Sponsors */
 .page-id-973 .front-sponsors {
 	color: #fff;
