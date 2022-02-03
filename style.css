@@ -2887,19 +2887,21 @@ h3.wordcamp-block__item-title.wordcamp-organizers__title {
 }
 .intro-post-title {
 	background: #1333A6;
-	margin: 0 8rem;
+	margin: 0 12rem;
 	text-align: center;
 	position: relative;
-	top: -33rem;
+	top: -34.05rem;
 	color: white;
+	padding: 1rem 0;
 }
 .intro-post-description {
 	background: #1333A6;
 	margin: 0 8rem;
 	text-align: center;
-	position:relative;
+	position: relative;
 	color: white;
-	top: -3rem;
+	top: -15rem;
+	padding: 2rem 0;
 }
 
 /* Sponsors */
