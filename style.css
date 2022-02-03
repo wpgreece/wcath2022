@@ -2857,6 +2857,18 @@ h3.wordcamp-block__item-title.wordcamp-organizers__title {
 	box-shadow: 0 0 8px rgba(126,99,88,0.3);
 }
 
+.page-id-973 .featured-post-group {
+	max-width: 61rem;
+	margin: 0 auto;
+	box-shadow: -0.6rem -0.6rem grey;
+}
+
+.page-id-973 .big-image-featured {
+	max-width: 100%;
+	height: auto;
+	margin: 0 auto;
+}
+
 .page-id-973 .front-intro-post blockquote {
 	padding: 3rem !important;
 }
