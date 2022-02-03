@@ -2889,7 +2889,8 @@ h3.wordcamp-block__item-title.wordcamp-organizers__title {
 	background: #1333A6;
 	margin: 0 8rem;
 	text-align: center;
-	top: -31.5%;
+	position: relative;
+	top: -3.5%;
 	color: white;
 }
 
