@@ -2898,10 +2898,16 @@ h3.wordcamp-block__item-title.wordcamp-organizers__title {
 	background: #1333A6;
 	margin: 0 8rem;
 	text-align: center;
-	position: relative;
 	color: white;
-	top: -15rem;
 	padding: 2rem 0;
+}
+.inner-featured-group {
+	top: -15rem;
+	position: relative;
+}
+.featured-btn {
+	top: -19rem;
+	width: 20%;
 }
 
 /* Sponsors */
