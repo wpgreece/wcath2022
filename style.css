@@ -2885,11 +2885,12 @@ h3.wordcamp-block__item-title.wordcamp-organizers__title {
 	height: auto;
 	margin: 0 auto;
 }
-#έρχεται-το-wordcamp-athens-2022 {
+.intro-post-title {
 	background: #1333A6;
 	margin: 0 8rem;
 	text-align: center;
-	top: 0;
+	top: -31.5%;
+	color: white;
 }
 
 
