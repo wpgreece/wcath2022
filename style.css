@@ -2890,10 +2890,16 @@ h3.wordcamp-block__item-title.wordcamp-organizers__title {
 	margin: 0 8rem;
 	text-align: center;
 	position: relative;
-	top: -3.5%;
+	top: -31.5%;
 	color: white;
 }
-
+.intro-post-description {
+	background: #1333A6;
+	margin: 0 8rem;
+	text-align: center;
+	position:relative;
+	top: -3.5%;
+}
 
 /* Sponsors */
 .page-id-973 .front-sponsors {
