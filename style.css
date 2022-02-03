@@ -2874,16 +2874,11 @@ h3.wordcamp-block__item-title.wordcamp-organizers__title {
 }
 
 /*Fotis*/
-.page-id-973 .featured-post-group {
-	max-width: 61rem;
-	margin: 0 auto;
-	box-shadow: -0.6rem -0.6rem #1333A6;
-}
-
 .page-id-973 .big-image-featured {
 	width: 100%;
 	height: auto;
 	margin: 0 auto;
+	box-shadow: -0.6rem -0.6rem #1333A6;
 }
 .intro-post-title {
 	background: #1333A6;
