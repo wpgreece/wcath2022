@@ -2885,7 +2885,7 @@ h3.wordcamp-block__item-title.wordcamp-organizers__title {
 	margin: 0 12rem;
 	text-align: center;
 	position: relative;
-	top: -34.05rem;
+	top: -47.85rem
 	color: white;
 	padding: 1rem 0;
 }
@@ -2901,8 +2901,15 @@ h3.wordcamp-block__item-title.wordcamp-organizers__title {
 	position: relative;
 }
 .featured-btn {
-	top: -19rem;
+	background-color: #1ed6bb;
+	color: #000000 !important;
+	transition: all .3s ease;
+	text-decoration: none;
+	font-weight: 600;
+	border-radius: 3px;
 	width: 20%;
+	top: -2.7rem;
+	position: relative;
 }
 
 /* Sponsors */
