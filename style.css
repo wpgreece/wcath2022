@@ -2817,7 +2817,7 @@ h3.wordcamp-block__item-title.wordcamp-organizers__title {
 	padding: 0;
 }
 .page-id-973 .big-image-front {
-    max-width: 100%;
+    width: 35vw;
     height: auto;
     margin: 0 auto;
 }
@@ -2858,20 +2858,40 @@ h3.wordcamp-block__item-title.wordcamp-organizers__title {
 }
 
 .page-id-973 .featured-post-group {
-	max-width: 61rem;
-	margin: 0 auto;
-	box-shadow: -0.6rem -0.6rem grey;
-}
-
-.page-id-973 .big-image-featured {
-	max-width: 100%;
-	height: auto;
+	max-width: 1100px;
+	width: calc(100vw - 40px);
 	margin: 0 auto;
 }
 
 .page-id-973 .front-intro-post blockquote {
 	padding: 3rem !important;
 }
+
+.page-id-973 .big-image-front {
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto;
+}
+
+/*Fotis*/
+.page-id-973 .featured-post-group {
+	max-width: 61rem;
+	margin: 0 auto;
+	box-shadow: -0.6rem -0.6rem #1333A6;
+}
+
+.page-id-973 .big-image-featured {
+	width: 100%;
+	height: auto;
+	margin: 0 auto;
+}
+#έρχεται-το-wordcamp-athens-2022 {
+	background: #1333A6;
+	margin: 0 8rem;
+	text-align: center;
+	top: 0;
+}
+
 
 /* Sponsors */
 .page-id-973 .front-sponsors {
