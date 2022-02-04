@@ -2907,6 +2907,28 @@ h3.wordcamp-block__item-title.wordcamp-organizers__title {
 div.wp-block-button.has-custom-width.wp-block-button__width-100.featured-btn a.wp-block-button__link {
 	width: 20%;
 }
+
+@media (max-width: 1020px) {
+	.intro-post-description {
+		background: #1333A6;
+		margin: 14rem 0.5rem 0 0.5rem;
+		text-align: center;
+		color: white;
+		padding: 2rem 0;
+	}
+	.intro-post-title {
+		background: #1333A6;
+		margin: 0 0.1rem;
+		text-align: center;
+		position: relative;
+		top: 0;
+		color: white;
+		padding: 1rem 0;
+	}
+	div.wp-block-button.has-custom-width.wp-block-button__width-100.featured-btn a.wp-block-button__link {
+	width: 65%;
+	}
+}
 /* Sponsors */
 .page-id-973 .front-sponsors {
 	color: #fff;
@@ -2941,27 +2963,7 @@ div.wp-block-button.has-custom-width.wp-block-button__width-100.featured-btn a.w
 	max-width: 200px;
 }
 
-@media (max-width: 1020px) {
-	.intro-post-description {
-		background: #1333A6;
-		margin: 0 1rem;
-		text-align: center;
-		color: white;
-		padding: 2rem 0;
-	}
-	.intro-post-title {
-		background: #1333A6;
-		margin: 0 0.1rem;
-		text-align: center;
-		position: relative;
-		top: 0;
-		color: white;
-		padding: 1rem 0;
-	}
-	div.wp-block-button.has-custom-width.wp-block-button__width-100.featured-btn a.wp-block-button__link {
-	width: 65%;
-	}
-}
+
 
 
 /* Latest Posts */
