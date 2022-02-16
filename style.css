@@ -2201,13 +2201,13 @@ button.tix-payment-tab.tix-preferred-payment-option {
     width: 100%;
 }
 
-@media ( max-width: 600px ) {
+@media ( max-width: 768px ) {
 	.page-id-4243 tr td:first-child {
 	    max-width: 96%;
 	    margin: 0 auto;
 	    text-align: left;
-	    font-size: 1rem;
-	    border-bottom: 2px solid #1233a6;
+	    font-size: 1.1rem;
+	    border-bottom: 3px solid #1233a6;
 	}
 	.page-id-4243 #primary {
 	    padding: 5rem 1rem 17.8rem;
