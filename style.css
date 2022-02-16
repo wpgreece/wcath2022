@@ -2200,6 +2200,21 @@ button.tix-payment-tab.tix-preferred-payment-option {
 .tix-submit {
     width: 100%;
 }
+
+@media ( max-width: 600px ) {
+	.page-id-4243 tr td:first-child {
+	    max-width: 96%;
+	    margin: 0 auto;
+	    text-align: left;
+	    font-size: 1
+	}
+	.page-id-4243 #primary {
+	    padding: 5rem 1rem 17.8rem;
+	}
+}
+
+
+
 /* 11.3 Budget
 ======================================*/
 .budget th {
