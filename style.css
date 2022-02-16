@@ -2178,6 +2178,12 @@ button, a.btn-sm {
 	font-size: 1rem !important;
 }
 
+.tix-payment-method .tix-payment-tab.tix-tab-selected {
+    padding: 0.8rem;
+}
+.tix-submit {
+    width: 100%;
+}
 #tix .tix-submit .tix-checkout-button {
 	padding: 1.1875rem !important;
 }
