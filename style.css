@@ -2212,6 +2212,9 @@ button.tix-payment-tab.tix-preferred-payment-option {
 	.page-id-4243 #primary {
 	    padding: 5rem 1rem 17.8rem;
 	}
+	.page-id-4243 th, .page-id-4243 td {
+	border: none;s
+	}
 }
 
 
