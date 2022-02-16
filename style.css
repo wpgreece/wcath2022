@@ -2194,6 +2194,12 @@ button, a.btn-sm {
 button.tix-payment-tab.tix-preferred-payment-option {
     visibility: hidden;
 }
+.tix-payment-method .tix-payment-tab.tix-tab-selected {
+    padding: 0.8rem;
+}
+.tix-submit {
+    width: 100%;
+}
 /* 11.3 Budget
 ======================================*/
 .budget th {
