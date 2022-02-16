@@ -2185,7 +2185,7 @@ button, a.btn-sm {
 .page-id-4243 #primary {
     padding: 90px 120px 280px 120px;
 }
-button.tix-payment-tab.tix-preferred-payment-option.tix-tab-selected {
+button.tix-payment-tab.tix-preferred-payment-option {
     visibility: hidden;
 }
 /* 11.3 Budget
