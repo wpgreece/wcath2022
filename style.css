@@ -839,8 +839,8 @@ textarea:focus {
 }
 
 .menu-toggle:active {
-	background-color: #c5d7f3;
-	font-weight: bold;
+	background-color: #c5d7f3!important;
+	font-weight: bold!important;
 }
 .menu-toggle:before {
 	font-size: 16px;
