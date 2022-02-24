@@ -992,7 +992,7 @@ textarea:focus {
 .menu-item a:focus,
 .menu-item a:hover,
 .menu-item a:active {
-	background-color: #c5d7f3;
+	background-color: rgba(19,51,166,1);
 }
 
 @media (min-width:37.5em) {
@@ -1009,7 +1009,7 @@ textarea:focus {
 
 .current-menu-item>a, .sub-menu li.current-menu-item a {
 	color: rgba(255,255,255,1);
-	background-color: #c5d7f3;
+	background-color: rgba(19,51,166,1);
 }
 
 .sub-menu
