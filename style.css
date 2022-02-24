@@ -989,13 +989,15 @@ textarea:focus {
 }
 
 .menu-item a.focus,
-.menu-item a:active,
 .menu-item a:focus,
 .menu-item a:hover {
 	color: rgba(255,255,255,1);
 	background-color: rgba(19,51,166,1);
 }
-
+.menu-item a:active {	
+	background-color: #c5d7f3;
+	font-weight: bold;
+}
 @media (min-width:37.5em) {
 	.menu-item a {
 		padding: 1rem;
