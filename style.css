@@ -2719,7 +2719,7 @@ blockquote:before {
 
 @media (min-width:37.5em) {
 	.menu-item a {
-		padding: .75rem;
+		padding: .5rem 1.5rem;
 	}
 }
 
