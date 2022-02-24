@@ -833,13 +833,14 @@ textarea:focus {
 }
 
 .menu-toggle.focus,
-.menu-toggle:active,
 .menu-toggle:focus,
 .menu-toggle:hover {
 	color: rgba(255,255,255,1);
 	background-color: rgba(19,51,166,1);
 }
-
+.menu-toggle:active {
+	background-color: #c5d7f3;
+}
 .menu-toggle:before {
 	font-size: 16px;
 	line-height: 24px;
