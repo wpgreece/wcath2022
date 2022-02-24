@@ -955,6 +955,17 @@ textarea:focus {
 		display: block;
 	}
 }
+/*asdf*/
+.menu-item a {
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+}
+
+.menu-item {
+    font-size: 1rem;
+    margin: 0 1rem;
+}
+/*asdf*/
 
 .menu-item {
 	position: relative;
