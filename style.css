@@ -955,17 +955,6 @@ textarea:focus {
 		display: block;
 	}
 }
-/*asdf*/
-.menu-item a {
-    padding-top: 0.5rem;
-    padding-bottom: 0.5rem;
-}
-
-.menu-item {
-    font-size: 1rem;
-    margin: 0 1rem;
-}
-/*asdf*/
 
 .menu-item {
 	position: relative;
@@ -983,6 +972,8 @@ textarea:focus {
 		line-height: 1.33333em;
 		text-align: center;
 		height: 45px;
+		font-size: 1rem;
+    		margin: 0 1rem;
 	}
 }
 
@@ -991,6 +982,8 @@ textarea:focus {
 	color: rgba(19,51,166,1);
 	padding: .5rem 1rem;
 	text-decoration: none;
+	padding-top: 0.5rem;
+    	padding-bottom: 0.5rem;
 }
 
 .menu-item a.focus,
