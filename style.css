@@ -2764,7 +2764,7 @@ tr td:first-child {
 }
 
 #main .wp-block-button__link {
-	background-color: #1ed6bb;
+	background-color: #1ed6bb!important;
 	color: #000000 !important;
 	transition: all .3s ease;
 	text-decoration: none;
