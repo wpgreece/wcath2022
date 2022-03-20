@@ -2997,7 +2997,7 @@ div.wp-block-button.has-custom-width.wp-block-button__width-100.featured-btn a.w
 
 .page-id-973 .front-gold-sponsor-images,
 .page-id-973 .front-silver-sponsor-images {
-	max-width: 750px;
+	max-width: 968px;
 	margin: 0 auto;
 }
 
@@ -3386,3 +3386,26 @@ div.wp-block-button.has-custom-width.wp-block-button__width-100.featured-btn a.w
 }
 
 /* /Revamp Sponsors page styles */
+
+
+/* /Sponsors main page styles */
+
+.front-sponsors {
+    border-top: 8px solid #1433a8;
+    border-bottom: 8px solid #1433a8;
+}
+.page-id-973 .front-gold-sponsor-images, .page-id-973 .front-silver-sponsor-images {
+    max-width: 968px; /*απο 750px*/
+    margin: 0 auto;
+}
+.c-sponsors {
+    border-top: 8px solid #1433a8;
+    border-bottom: 8px solid #1433a8;
+    margin: 4rem;
+}
+.wp-block-columns:not(.is-not-stacked-on-mobile)>.wp-block-column {
+    flex-basis: 0;
+    flex-grow: 1;
+    justify-content: center;
+    display: inherit;
+}
