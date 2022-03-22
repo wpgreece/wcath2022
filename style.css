@@ -1594,8 +1594,9 @@ p#subscribe-email {
 	padding-bottom: 100px;
 	margin: 0 auto;
 	max-width: 100%;
-	background-image: url('https://2019.athens.wordcamp.org/files/2019/01/wcath_2019_register_section@2x.png');
+	background-image: url('https://athens.wordcamp.org/2022/files/2022/03/megaro-main-track.jpg');
 	background-repeat: no-repeat;
+	background-color: #1333A677;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
@@ -1660,6 +1661,25 @@ body.home #footer-widget-3 {
 	#footer-widget-1 .sponsors img {
 		width: 100%;
 	}
+}
+
+#footer-widget-5 {
+    display: block;
+    padding: 0 20px;
+    text-align: center;
+    max-width: 960px;
+    margin: 0 auto;
+}
+#footer-widget-5 img {
+    border-radius: 3px;
+    box-shadow: none;
+    -moz-transition: all .3s ease;
+    -o-transition: all .3s ease;
+    -webkit-transition: all .3s ease;
+    transition: all .3s ease;
+}
+.page-id-973 #footer-widget-5 {
+    display: none;
 }
 
 /* Social Footer Widget */
