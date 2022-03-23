@@ -1676,6 +1676,10 @@ body.home #footer-widget-3 {
 .page-id-973 #footer-widgets {
     display: none;
 }
+#footer-widget-5 .wordcamp-sponsor div {
+    filter: drop-shadow(0px 3px 3px #00000044);
+}
+
 
 /* Social Footer Widget */
 #footer-widget-2 {
