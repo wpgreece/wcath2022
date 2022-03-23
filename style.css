@@ -42,6 +42,7 @@
 	11.4 Organizers
 	11.5 Sponsors
 	11.6 Badges
+	11.7 Speakers programm
 12. Contact Page
 	12.1 Textarea
 13. Responsive
@@ -2370,6 +2371,29 @@ button.tix-payment-tab.tix-preferred-payment-option {
 	-webkit-border-radius: 3px;
 	-moz-border-radius: 3px;
 	border-radius: 3px;
+}
+
+/* 11.7 Speakers Programm
+======================================*/
+
+.page-id-140 span.wcpt-track-name,  {
+    font-size: 1.6rem;
+    color: white;
+}
+.page-id-140 td, .page-id-140 th {
+    vertical-align: middle;
+    color: white;
+}
+.page-id-140 .wcpt-col-time {
+    color: white;
+    font-size: 0.85rem;
+    text-align: center;
+}
+.page-id-140 .global-session {
+    background: #1334a618;
+}
+.page-id-140 .wcpt-time {
+    background: #1334a618;
 }
 
 /*======================================
