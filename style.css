@@ -2376,7 +2376,11 @@ button.tix-payment-tab.tix-preferred-payment-option {
 /* 11.7 Speakers Programm
 ======================================*/
 
-.page-id-140 span.wcpt-track-name,  {
+
+.page-id-140 thead {
+    background: #1334a6;
+}
+.page-id-140 span.wcpt-track-name  {
     font-size: 1.6rem;
     color: white;
 }
