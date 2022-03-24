@@ -1590,6 +1590,10 @@ p#subscribe-email {
 	margin-bottom: 50px;
 }
 
+div.entry-content div.wp-container-10.wp-block-columns.are-vertically-aligned-center.front-newsletter.has-background-color.has-text-color div.wp-block-column.is-vertically-aligned-center {
+    display: block;
+}
+
 #footer-widgets {
 	padding-top: 100px;
 	padding-bottom: 100px;
