@@ -2086,7 +2086,7 @@ body.single-wcb_session ul#session-speaker-names {
 }
 
 body.single-wcb_session ul#session-speaker-names a {
-	font-size: 20px;
+	font-size: 200%;
 	font-weight: 600;
 }
 
