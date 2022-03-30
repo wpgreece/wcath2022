@@ -2191,15 +2191,15 @@ button, a.btn-sm {
 }
 
 .postid-5492 body.single-wcb_session ul#session-speaker-names a {
-    font-size: 200%;
+    font-size: 200%!important;
 }
 .postid-5492 body.single-wcb_session h2.session-speakers {
-    font-size: 100%;
+    font-size: 100%!important;
 }
 .postid-5492 .entry-title {
     line-height: 1.125;
     margin-bottom: .66667rem;
-    font-size: 250%;
+    font-size: 250%!important;
 }
 
 /* 11.2 Tickets
