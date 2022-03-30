@@ -2190,6 +2190,18 @@ button, a.btn-sm {
 	color: #000;
 }
 
+.postid-5492 body.single-wcb_session ul#session-speaker-names a {
+    font-size: 200%;
+}
+.postid-5492 body.single-wcb_session h2.session-speakers {
+    font-size: 100%;
+}
+.postid-5492 .entry-title {
+    line-height: 1.125;
+    margin-bottom: .66667rem;
+    font-size: 250%;
+}
+
 /* 11.2 Tickets
 ======================================*/
 #tix-attendees .avatar {
